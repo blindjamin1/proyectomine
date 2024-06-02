@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "26E23D519F52B5AE", title: "{\"text\":\"Campaign\",\"color\":\"#17D770\"}" }
+		{ id: "7430EEAC0040B392", title: "{\"text\":\"Story\",\"color\":\"#D47F10\"}" }
+		{ id: "4BADE329D55A3F9E", title: "{\"text\":\"Intermission\",\"color\":\"#0CD7EE\"}" }
+		{ id: "7EDAAA7FC8633EB2", title: "{\"text\":\"Shop\",\"color\":\"#D4BA10\"}" }
+		{ id: "40AA946F923A36EA", title: "{\"text\":\"Path to Glory\",\"color\":\"#EE0C50\"}" }
+	]
+}
