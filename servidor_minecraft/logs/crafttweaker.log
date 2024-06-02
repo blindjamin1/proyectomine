@@ -1,0 +1,38 @@
+[02:33:17.561][INFO]: Successfully injected RecipeFS file system
+[02:33:17.620][INFO]: Successfully identified and loaded plugin crafttweaker:builtin
+[02:33:17.621][INFO]: Successfully identified and loaded plugin crafttweaker:builtin_forge
+[02:33:17.629][INFO]: Successfully identified and loaded plugin farmersdelight:crafttweaker_plugin
+[02:33:18.357][INFO]: The following mods have explicit CraftTweaker support through the default plugin:
+[02:33:18.359][INFO]: - 'aether' at version '1.19.2-1.4.2-forge'
+[02:33:18.359][INFO]: - 'aquaculture' at version '1.19.2-2.4.17'
+[02:33:18.359][INFO]: - 'crafttweaker' at version '10.1.55'
+[02:33:18.360][INFO]: - 'farmersdelight' at version '1.19.2-1.2.4'
+[02:33:37.162][INFO]: Started loading scripts for loader 'initialize'
+[02:33:37.878][INFO]: Compiling and executing scripts
+[02:33:37.996][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[02:33:38.211][INFO]: Execution for loader 'initialize' completed successfully
+[02:33:56.453][INFO]: Started loading scripts for loader 'tags'
+[02:33:56.547][INFO]: Compiling and executing scripts
+[02:33:56.611][INFO]: Successfully initialized modules [crafttweaker, expansions]
+[02:33:56.652][INFO]: Execution for loader 'tags' completed successfully
+[02:34:04.507][INFO]: Started loading scripts for loader 'crafttweaker'
+[02:34:04.586][INFO]: Compiling and executing scripts
+[02:34:05.389][INFO]: Successfully initialized modules [mods, crafttweaker, expansions]
+[02:34:05.397][INFO]: Loading file 'Cisco.zs' with priority 0
+[02:34:05.453][INFO]: Hello world!
+[02:34:05.457][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:dreadsteel_chestplate' that outputs: '<item:dreadsteel:dreadsteel_chestplate>'
+[02:34:05.458][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:dreadsteel_helmet' that outputs: '<item:dreadsteel:dreadsteel_helmet>'
+[02:34:05.459][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:dreadsteel_boots' that outputs: '<item:dreadsteel:dreadsteel_boots>'
+[02:34:05.459][INFO]: Adding 'minecraft:smithing' recipe, with name: 'crafttweaker:dreadsteel_leggings' that outputs: '<item:dreadsteel:dreadsteel_leggings>'
+[02:34:05.460][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:dreadsteel_ingot_recipe' that outputs: '<item:dreadsteel:dreadsteel_ingot>'
+[02:34:05.461][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:dreadsteel_scythe_recipe' that outputs: '<item:dreadsteel:dreadsteel_scythe>'
+[02:34:05.461][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:dreadsteel_shield_recipe' that outputs: '<item:dreadsteel:dreadsteel_shield>'
+[02:34:05.462][INFO]: Removing "minecraft:crafting" recipes with modid: "dreadsteel"
+[02:34:05.464][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:amnesia_scroll' that outputs: '<item:skilltree:amnesia_scroll>'
+[02:34:05.464][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:true_dragons_breath' that outputs: '<item:cisco_mod:true_dragons_breath>'
+[02:34:05.473][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:rogue_eye' that outputs: '<item:endrem:rogue_eye>.withTag({Damage: 0})'
+[02:34:05.473][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:undead_soul' that outputs: '<item:endrem:undead_soul>'
+[02:34:05.473][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:demonium_ingot_recipe' that outputs: '<item:cisco_mod:demonium_ingot>'
+[02:34:05.474][INFO]: Adding 'minecraft:crafting' recipe, of type: "shapeless", with name: 'crafttweaker:frigidium_ingot_recipe' that outputs: '<item:cisco_mod:frigidiumingot>'
+[02:34:05.474][INFO]: Execution for loader 'crafttweaker' completed successfully
+[02:34:05.476][INFO]: This reload was made possible by Jordan Pineo and more! Become a patron at https://patreon.com/jaredlll08?s=crtmod
