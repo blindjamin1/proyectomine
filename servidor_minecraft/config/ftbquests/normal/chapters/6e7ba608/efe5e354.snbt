@@ -1,0 +1,33 @@
+{
+	title: "Somebody Come Get Her",
+	x: -0.5d,
+	y: -7.5d,
+	description: "She's drinking all my Limeade!",
+	text: [
+		"Craft the Drink Mixer!"
+	],
+	dependencies: [
+		"45e2dbd1"
+	],
+	tasks: [{
+		uid: "fe52d442",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:drink_mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "47ea54fe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 6s
+		}
+	}]
+}

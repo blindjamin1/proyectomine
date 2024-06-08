@@ -1,0 +1,65 @@
+{
+	title: "&5&lDark Master Statue",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 10,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -12.33503401360543d,
+	y: -1.0612244897959187d,
+	shape: "square",
+	text: [
+		"Title: Dark Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 22x28x46",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A slate and basalt statue of a bent over wizard supported with a Master Necromancer staff."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"af6abf08"
+	],
+	tasks: [{
+		uid: "f4a27ab5",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "8dbd3f4f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 3604646,
+				size: 47,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/dark_master_statue",
+				author: "Samara__",
+				display: {
+					color: 3604646
+				},
+				label: "Dark Master Statue",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

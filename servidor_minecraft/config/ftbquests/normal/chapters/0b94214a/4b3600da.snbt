@@ -1,0 +1,33 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	description: "You're not suppose to guard them yourself!",
+	text: [
+		"Obtain a Guardian Chunk."
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"ea6ffcbb"
+	],
+	tasks: [{
+		uid: "af29beef",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:chunk",
+			Damage: 16s
+		}]
+	}],
+	rewards: [{
+		uid: "aae6a68c",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "b0c27442",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

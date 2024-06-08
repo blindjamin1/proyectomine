@@ -1,0 +1,53 @@
+{
+	title: "Well",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 7.3214285714285765d,
+	y: 2.017857142857139d,
+	shape: "square",
+	text: [
+		"Title: Well",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 11x11x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A small village well."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ec1c5ed0",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "6ffeb7ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/well",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Well",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

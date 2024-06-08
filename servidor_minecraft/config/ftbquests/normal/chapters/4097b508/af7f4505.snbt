@@ -1,0 +1,61 @@
+{
+	title: "Dark Oak Library",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -12.371428571428567d,
+	y: 1.9809523809523597d,
+	shape: "square",
+	text: [
+		"Title: Dark Oak Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x7",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A dark oak library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Dark Oak Bookshelf is needed where the Cyan Wool is and one Dark Oak Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "d610a43c",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "3d913df9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 3604646,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/dark_oak_library",
+				author: "Samara__",
+				display: {
+					color: 3604646
+				},
+				label: "Dark Oak Library",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

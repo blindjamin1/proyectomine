@@ -1,0 +1,69 @@
+{
+	title: "Intro to Infusion",
+	x: 8.5d,
+	y: -1.5d,
+	description: "Infused with... MAGIC!",
+	text: [
+		"Infusion is like a complicated crafting table without an interface.",
+		"",
+		"To activate the Runic Matrix, you must right click it with the Caster's Gauntlet."
+	],
+	dependencies: [
+		"24073d04"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "c52e1ed0",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:infusion_matrix"
+		}]
+	},
+	{
+		uid: "305a5af6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:pedestal_arcane"
+		}]
+	},
+	{
+		uid: "37bf04a6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:stone_arcane"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9b5e8b38",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:salis_mundus"
+		}]
+	}],
+	rewards: [{
+		uid: "99a8bab2",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

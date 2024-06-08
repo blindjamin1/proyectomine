@@ -1,0 +1,12 @@
+{
+	title: "Lovecraft? No, Thaumcraft.",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thaumcraft:thaumonomicon"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

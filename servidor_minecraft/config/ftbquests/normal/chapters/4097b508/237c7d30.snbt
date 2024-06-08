@@ -1,0 +1,61 @@
+{
+	title: "Acacia Library",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:duplication_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -10.895238095238085d,
+	y: 1.9749999999999872d,
+	shape: "square",
+	text: [
+		"Title: Acacia Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x7",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An acacia library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Acacia Bookshelf is needed where the Cyan Wool is and one Acacia Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "c4dceb53",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "9adf75ce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 10886144,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/acacia_library",
+				author: "Samara__",
+				display: {
+					color: 10886144
+				},
+				label: "Acacia Library",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

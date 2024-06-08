@@ -1,0 +1,47 @@
+{
+	title: "Legendary Vampire Hunter",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Hunter Intel 14",
+	text: [
+		"Your at your journey's end the apex of vampire hunters just the mere mention of your name makes them run in fear.",
+		"",
+		"You would make Van Helsing blush with how powerful you've become."
+	],
+	dependencies: [
+		"9c854b7e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5e9ab061",
+		type: "item",
+		title: "Hunter Intel 14",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:hunter_intel",
+			Damage: 9s
+		}]
+	}],
+	rewards: [{
+		uid: "8ac19a80",
+		type: "choice",
+		table: 58
+	},
+	{
+		uid: "cdd08137",
+		type: "loot",
+		table: 57
+	},
+	{
+		uid: "efa49212",
+		type: "xp_levels",
+		xp_levels: 75
+	},
+	{
+		uid: "70725571",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

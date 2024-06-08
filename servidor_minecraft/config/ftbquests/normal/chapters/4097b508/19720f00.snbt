@@ -1,0 +1,65 @@
+{
+	title: "&6&lRadiant Master Statue",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:empty_theory_scroll",
+		tag: {
+			"Quark:RuneColor": 4,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -6.547619047619037d,
+	y: -1.0059523809523796d,
+	shape: "square",
+	text: [
+		"Title: Radiant Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 23x18x70",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a child wizard with raised arms. Above him is a Master Healer wand."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"a86eb223"
+	],
+	tasks: [{
+		uid: "d0ccc11b",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "e478c13d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 16777215,
+				size: 71,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/radiant_master_statue",
+				author: "Samara__",
+				display: {
+					color: 16777215
+				},
+				label: "Radiant Master Statue",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

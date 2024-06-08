@@ -1,0 +1,53 @@
+{
+	title: "House 2",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 10.947278911564624d,
+	y: -0.994897959183703d,
+	shape: "square",
+	text: [
+		"Title: Large House",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 28x31x22",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A large two story village house."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5577024a",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "b52884b1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 31,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/house_2",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "House 2",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

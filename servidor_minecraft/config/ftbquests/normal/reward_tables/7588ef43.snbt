@@ -1,0 +1,124 @@
+{
+	title: "Legendary Tier Rewards",
+	loot_size: 3,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "contenttweaker:reforge_cat"
+		},
+		count: 40,
+		weight: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:drum",
+			tag: {
+				Fluid: {
+					FluidName: "xpjuice",
+					Amount: 255348
+				}
+			},
+			Damage: 3s
+		},
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonsteel_fire_block"
+		},
+		count: 3,
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonsteel_ice_block"
+		},
+		count: 3,
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "megaloot:upgradecharm_epic"
+		},
+		count: 56,
+		weight: 25
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "epic_wizard_artifacts"
+			}
+		},
+		count: 2,
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "random_dragon_egg_duos"
+			}
+		},
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chancecubes:chance_icosahedron"
+		},
+		count: 4,
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chancecubes:compact_giant_chance_cube"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "chancecubes:chance_cube"
+		},
+		count: 10,
+		weight: 10
+	}],
+	loot_crate: {
+		string_id: "legendary_tier_rewards",
+		item_name: "Crate Of Legendary Tier Rewards",
+		color: 16766720,
+		glow: true,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

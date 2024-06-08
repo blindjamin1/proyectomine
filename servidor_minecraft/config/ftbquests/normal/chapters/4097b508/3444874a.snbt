@@ -1,0 +1,53 @@
+{
+	title: "House 5",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 6.607142857142854d,
+	y: -0.9821428571428577d,
+	shape: "square",
+	text: [
+		"Title: House with Arch",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 35x24x28",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A two story village house with arch."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "198afb0d",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "40dacf6b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 35,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/house_5",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "House 5",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

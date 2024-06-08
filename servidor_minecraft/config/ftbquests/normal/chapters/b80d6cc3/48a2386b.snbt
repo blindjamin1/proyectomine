@@ -1,0 +1,14 @@
+{
+	x: -2.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "5206e638",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:ingot_lead"
+		}]
+	}]
+}

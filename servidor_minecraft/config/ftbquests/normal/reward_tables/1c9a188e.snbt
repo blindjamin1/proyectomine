@@ -1,0 +1,92 @@
+{
+	title: "Modbox Kits",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "atum_modbox"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "betweenlands_modbox"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "erebus_modbox"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "embers_modbox"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "tropicraft_modbox"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "ice_fire_modbox"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "aether_modbox"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "thaumcraft_modbox"
+			}
+		}
+	}]
+}

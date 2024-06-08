@@ -1,0 +1,12 @@
+{
+	title: "Growing Gold, Literally!",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "mysticalagriculture:crafting"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

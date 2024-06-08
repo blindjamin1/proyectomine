@@ -1,0 +1,48 @@
+{
+	title: "Liquid Death",
+	x: 5.0d,
+	y: -12.0d,
+	description: "As the name suggests",
+	text: [
+		"I don't think this smells pleasant, but it might taste like grape juice!"
+	],
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "ba70c09f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "liquid_death",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "197e9131",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:bottle_taint"
+		}]
+	}],
+	rewards: [{
+		uid: "d480ce8b",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "42020d2b",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "Wizardry Set Info",
+	x: -13.371428571428552d,
+	y: 3.474999999999973d,
+	shape: "square",
+	text: [
+		"There is a statue of each magical element. To unlock the quest to purchase one, you'll need to obtain a Master Wand of the corresponding element.",
+		"",
+		"There is also a tower for each magical element as well. Only the roof color matches the color of the element, however.",
+		"",
+		"The libraries match the corresponding buildings in style and materials used. These libraries are NOT INTENDED to fit inside the towers."
+	],
+	tasks: [{
+		uid: "0306709b",
+		type: "checkmark",
+		title: "Wizardry Set Info"
+	}]
+}

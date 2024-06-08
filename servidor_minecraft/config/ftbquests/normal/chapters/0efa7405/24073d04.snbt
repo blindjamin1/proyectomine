@@ -1,0 +1,36 @@
+{
+	title: "Magical Stone",
+	x: 8.5d,
+	y: -6.0d,
+	description: "With magical properties",
+	text: [
+		"If you like how it looks, you can chisel it, too."
+	],
+	dependencies: [
+		"1af03bae"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "71ae1c8d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:stone_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "7f5600fe",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

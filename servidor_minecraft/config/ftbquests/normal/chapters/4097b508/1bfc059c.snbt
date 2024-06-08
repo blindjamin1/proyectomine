@@ -1,0 +1,53 @@
+{
+	title: "Hedge Maze",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 11.67857142857143d,
+	y: 2.017857142857146d,
+	shape: "square",
+	text: [
+		"Title: Hedge Maze",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 35x35x41",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A hedge maze within stone walls. In the center lies a tree and flowers."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6f2ee48c",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "2cecd752",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 41,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/hedge_maze",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Hedge Maze",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

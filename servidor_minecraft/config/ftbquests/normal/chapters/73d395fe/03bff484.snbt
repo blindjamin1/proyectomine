@@ -1,0 +1,39 @@
+{
+	title: "Purple Stone!",
+	x: -2.0d,
+	y: -4.0d,
+	description: "It's found underground!",
+	text: [
+		"The trees are purple. ",
+		"The stone is purple. ",
+		"The grass is purple. ",
+		"EVERYTHING IS PURPLE.",
+		"Am I purple as well?",
+		"",
+		"Obtain some Nightstone."
+	],
+	dependencies: [
+		"7ce4e664"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ffa52c2d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:nightstone"
+		}]
+	}],
+	rewards: [{
+		uid: "858000a4",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "b3934d52",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

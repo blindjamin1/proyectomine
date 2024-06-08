@@ -1,0 +1,53 @@
+{
+	title: "House 4",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 8.044217687074834d,
+	y: 0.5068027210884409d,
+	shape: "square",
+	text: [
+		"Title: Stone House",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 28x28x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An one story stone village house."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "7e36d384",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "bee0dc1a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 29,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/house_4",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "House 4",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

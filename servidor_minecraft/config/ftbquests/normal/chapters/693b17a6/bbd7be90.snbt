@@ -1,0 +1,39 @@
+{
+	title: "Remnants of a Remnant",
+	x: 0.5d,
+	y: -4.5d,
+	description: "Dust to dust",
+	text: [
+		"Slay 500 Remnants.",
+		"",
+		"Any Remnant will give credit towards this quest."
+	],
+	tasks: [{
+		uid: "fc85c7bc",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 7s
+		},
+		entity: "ebwizardry:remnant",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "91e251d6",
+		type: "ftbmoney:money",
+		ftb_money: 750L
+	},
+	{
+		uid: "7e32e5a2",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "6e3c37a6",
+		type: "choice",
+		table: 57
+	}]
+}

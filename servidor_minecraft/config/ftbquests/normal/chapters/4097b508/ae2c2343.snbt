@@ -1,0 +1,61 @@
+{
+	title: "Crimson Spa",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:duplication_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 0.2836734693877787d,
+	y: 8.259863945578246d,
+	shape: "square",
+	text: [
+		"Title: Crimson Spa",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 13x13x4",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spa for relieving warp in Crimson red. NOTE: An Arcane Spa is needed where the Pink Wool is, and an Everful Urn where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "0c6c0fcd",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "6a2139d1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 9717760,
+				size: 13,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/crimson_spa",
+				author: "Samara__",
+				display: {
+					color: 9699328
+				},
+				label: "Crimson Spa",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

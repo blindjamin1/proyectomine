@@ -1,0 +1,55 @@
+{
+	title: "What's Inside?",
+	x: -3.0d,
+	y: -2.0d,
+	description: "Let's throw it to find out",
+	text: [
+		"Obtain a Geode and a Dark Pearl."
+	],
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "6d58bb62",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:geode"
+		}]
+	},
+	{
+		uid: "68d54d9a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:dark_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "f4636b8b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "8c930705",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0278c1b1",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

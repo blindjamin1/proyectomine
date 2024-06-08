@@ -1,0 +1,107 @@
+{
+	title: "Is It Edible?",
+	x: -2.0d,
+	y: -5.0d,
+	description: "If you can eat it, you should eat it",
+	text: [
+		"Someone was out there eating random mushrooms off the ground back then.",
+		"",
+		"Collect all of the mushrooms available in the Erebus mod."
+	],
+	dependencies: [
+		"d01b8d01"
+	],
+	tasks: [{
+		uid: "d6a6db28",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:double_plant",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "dfab16cf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:double_plant",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "7c7952e2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:dark_capped_mushroom"
+		}]
+	},
+	{
+		uid: "30392e77",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:sarcastic_czech_mushroom"
+		}]
+	},
+	{
+		uid: "392e080f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:grandmas_shoes_mushroom"
+		}]
+	},
+	{
+		uid: "000d5164",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:dutch_cap_mushroom"
+		}]
+	},
+	{
+		uid: "6bc5959b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:kaizers_fingers_mushroom"
+		}]
+	}],
+	rewards: [{
+		uid: "eaf531ca",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "1bb752ad",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "c9f24f00",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 5s
+		}
+	}]
+}

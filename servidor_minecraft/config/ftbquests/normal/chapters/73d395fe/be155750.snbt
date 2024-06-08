@@ -1,0 +1,28 @@
+{
+	title: "How Do These Trees Grow?",
+	x: -6.5d,
+	y: -4.0d,
+	description: "There's no sunlight here anyways",
+	text: [
+		"Obtain some Shadowroot Logs."
+	],
+	dependencies: [
+		"b91d4d0e"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "b9630f7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:shadowroot_log"
+		}]
+	}],
+	rewards: [{
+		uid: "29365a3d",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

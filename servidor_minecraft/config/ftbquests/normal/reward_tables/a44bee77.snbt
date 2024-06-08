@@ -1,0 +1,51 @@
+{
+	title: "Blood Donation",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:blood_container",
+		tag: {
+			fluid: {
+				FluidName: "vampirismblood",
+				Amount: 12600
+			}
+		}
+	},
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:pure_blood"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:pure_blood",
+			Damage: 1s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:pure_blood",
+			Damage: 2s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:pure_blood",
+			Damage: 3s
+		}
+	}]
+}

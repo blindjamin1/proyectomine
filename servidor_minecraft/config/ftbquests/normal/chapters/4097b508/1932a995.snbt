@@ -1,0 +1,65 @@
+{
+	title: "&2&lMystical Master Statue",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:bartering_scroll",
+		tag: {
+			"Quark:RuneColor": 13,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -8.008503401360528d,
+	y: -1.0408163265306172d,
+	shape: "square",
+	text: [
+		"Title: Mystical Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 19x27x67",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A marble statue of a wizard with a Master Sorcerer wand over an open book."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"bf68e71d"
+	],
+	tasks: [{
+		uid: "b3bde77b",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "5bd0cc65",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 29497,
+				size: 67,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/mystical_master_statue",
+				author: "Samara__",
+				display: {
+					color: 29497
+				},
+				label: "Mystical Master Statue",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

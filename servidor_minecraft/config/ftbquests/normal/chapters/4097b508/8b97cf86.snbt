@@ -1,0 +1,65 @@
+{
+	title: "&4&lFiery Master Statue",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:duplication_scroll",
+		tag: {
+			"Quark:RuneColor": 14,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -10.906462585034006d,
+	y: -1.0408163265306172d,
+	shape: "square",
+	text: [
+		"Title: Fiery Master Statue",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 19x30x41",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A slate and basalt statue of a wizard with a Master Pyromancer wand while blowing a flame."
+	],
+	can_repeat: true,
+	hide_dependency_lines: true,
+	dependencies: [
+		"8bfef60b"
+	],
+	tasks: [{
+		uid: "ac48c099",
+		type: "ftbmoney:money",
+		value: 500L
+	}],
+	rewards: [{
+		uid: "7e64aa3d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 10886144,
+				size: 41,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/fiery_master_statue",
+				author: "Samara__",
+				display: {
+					color: 10886144
+				},
+				label: "Fiery Master Statue",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

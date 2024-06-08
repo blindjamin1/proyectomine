@@ -1,0 +1,62 @@
+{
+	title: "Bridge L",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		},
+		Damage: 1s
+	},
+	x: 14.689795918367345d,
+	y: -1.0074829931972893d,
+	shape: "square",
+	text: [
+		"Title: Bridge L",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 13x17xx13",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village bridge. Note: This bridge part goes on the end or beginning of the whole structure."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6feffda9",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "acd08b25",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 17,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/bridge_l",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Bridge L",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

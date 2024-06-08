@@ -1,0 +1,12 @@
+{
+	title: "Alone in the Dark",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "midnight:double_dewshroom"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

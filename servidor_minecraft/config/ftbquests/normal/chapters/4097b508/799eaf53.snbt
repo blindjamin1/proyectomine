@@ -1,0 +1,62 @@
+{
+	title: "Bridge T",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		},
+		Damage: 1s
+	},
+	x: 14.689795918367345d,
+	y: 1.9925170068027d,
+	shape: "square",
+	text: [
+		"Title: Bridge T",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 13x25xx13",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village bridge. Note: This bridge part goes in the middle of the whole structure."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "fd0c0bda",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "19bb2790",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 25,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/bridge_t",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Bridge T",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "The Template",
+	x: -9.5d,
+	y: -4.5d,
+	description: "Where every plan takes root",
+	text: [
+		"Craft some Base Crafting Seeds."
+	],
+	dependencies: [
+		"883b968f"
+	],
+	tasks: [{
+		uid: "d2f2e3b3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 16s
+		}]
+	}],
+	rewards: [{
+		uid: "b002300d",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "5617e257",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

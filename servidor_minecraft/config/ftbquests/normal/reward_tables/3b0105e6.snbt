@@ -1,0 +1,486 @@
+{
+	title: "Rare Tier Rewards",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "rare_tier_rewards"
+		}
+	},
+	loot_size: 5,
+	use_title: true,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_hammer_leap",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_hammer_smash",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_cestus_roar",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_cestus_pummel",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_cutlass_riposte",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_cutlass_pierce",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_knife_smokebomb",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:master_knife_multistrike",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "megaloot:weaponcase_rare"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "randomloot:golden_case"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:grand_crystal"
+		},
+		random_bonus: 3,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:rune_door_key"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 1s
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 2s
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 3s
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 4s
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:curio",
+			Damage: 5s
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:condensing"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:bonfire"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:forest"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:rejuvenation"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ritual_book",
+			tag: {
+				ritual: "ancientspellcraft:arcane_barrier"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:stone_tablet_large"
+		},
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ethereal_crystalweave"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:resplendent_thread"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:crystal_silver_plating"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:gorgon_head"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:cyclops_eye",
+			tag: {
+				HurtingTicks: 97
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:hippocampus_fin"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:siren_tear"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:charm_bleak"
+		},
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "waystones:waystone"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "signpost:blockbase"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:waystone"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:bone_wayfinder"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:glass_sword",
+			tag: {
+				Quality: {}
+			}
+		},
+		weight: 9
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 1s
+		},
+		count: 3,
+		random_bonus: 10,
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "elemental_crystal_blocks"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "troll_weapons"
+			}
+		},
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "hippogryph_eggs"
+			}
+		},
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:astral_diamond"
+		},
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:ember_cluster"
+		},
+		count: 3,
+		random_bonus: 2,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:nether_star"
+		},
+		count: 3,
+		random_bonus: 10
+	}],
+	loot_crate: {
+		string_id: "rare_tier_rewards",
+		item_name: "Crate of Rare Rewards",
+		color: 18347,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

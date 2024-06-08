@@ -1,0 +1,33 @@
+{
+	title: "Bug Tamer",
+	x: 2.0d,
+	y: -3.5d,
+	description: "Or a psycho",
+	text: [
+		"Either or, craft this saddle and ride a beetle!"
+	],
+	dependencies: [
+		"d7ca76bc"
+	],
+	tasks: [{
+		uid: "fea36690",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:materials",
+			Damage: 49s
+		}]
+	}],
+	rewards: [{
+		uid: "2c4be3ca",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a841fd51",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

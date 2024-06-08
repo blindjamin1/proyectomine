@@ -1,0 +1,61 @@
+{
+	title: "Thaumic Spa",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 11.140476190476207d,
+	y: 8.28571428571425d,
+	shape: "square",
+	text: [
+		"Title: Thaumic Spa",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 13x13x4",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spa for relieving warp in Thaumic purple. NOTE: An Arcane Spa is needed where the Pink Wool is, and an Everful Urn where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6b506175",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "55b00182",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 2293908,
+				size: 13,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_spa",
+				author: "Samara__",
+				display: {
+					color: 4013373
+				},
+				label: "Thaumic Spa",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

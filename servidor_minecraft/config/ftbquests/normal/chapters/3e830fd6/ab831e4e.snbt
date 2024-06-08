@@ -1,0 +1,41 @@
+{
+	title: "Bookworm Jim",
+	x: -16.5d,
+	y: 3.0d,
+	description: "Waiter another book please",
+	text: [
+		"Your hunger for knowledge is insatiable.",
+		"",
+		"The only meal fit for you are enchanted books."
+	],
+	tasks: [{
+		uid: "0e0ff7f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.bookworm",
+			tag: {
+				Quality: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5653a63",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "37c832af",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "bc79778e",
+		type: "random",
+		table: 12
+	}]
+}

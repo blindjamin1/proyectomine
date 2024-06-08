@@ -1,0 +1,197 @@
+{
+	title: "Up We Go!",
+	x: -7.75d,
+	y: -3.75d,
+	description: "What if we get stuck, John?",
+	text: [
+		"Just don't fart, please.",
+		"",
+		"Place an Elevator block on the floor, where you will be stepping onto it. You can only move between Elevators of the same color.",
+		"",
+		"Place another Elevator block directly over the one below it. It may be placed up to 20 blocks high.",
+		"",
+		"Pressing space while standing on an Elevator block will transport you up; pressing Shift will transport you down."
+	],
+	size: 1.5d,
+	or_tasks: true,
+	tasks: [{
+		uid: "495560a8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator"
+		}]
+	},
+	{
+		uid: "dfcc68cb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "fa048686",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "74c41041",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "2652b256",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "9147e37d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "6d7d8364",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "b8df5848",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 7s
+		}]
+	},
+	{
+		uid: "7f956c7d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 8s
+		}]
+	},
+	{
+		uid: "42a4fd9b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 9s
+		}]
+	},
+	{
+		uid: "6e4243e3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 10s
+		}]
+	},
+	{
+		uid: "972da39c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 11s
+		}]
+	},
+	{
+		uid: "162aca10",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 12s
+		}]
+	},
+	{
+		uid: "3773b53a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 13s
+		}]
+	},
+	{
+		uid: "df4db897",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 14s
+		}]
+	},
+	{
+		uid: "7fc84f48",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator",
+			Damage: 15s
+		}]
+	}],
+	rewards: [{
+		uid: "59c6b4db",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

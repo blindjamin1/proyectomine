@@ -1,0 +1,49 @@
+{
+	title: "Twitchy Bomb",
+	x: -5.0d,
+	y: -2.0d,
+	description: "Am I lagging?",
+	text: [
+		"This bomb gives an effect similar to rubberbanding and lag.",
+		"",
+		"Obtain a Bogshroom Spore Bomb."
+	],
+	dependencies: [
+		"500c1c45"
+	],
+	tasks: [{
+		uid: "bc50b445",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:spore_bomb",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7c1328c0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "738c94f6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1b852dec",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

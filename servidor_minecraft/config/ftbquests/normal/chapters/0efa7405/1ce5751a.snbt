@@ -1,0 +1,30 @@
+{
+	title: "Thaumium",
+	x: 12.5d,
+	y: -9.0d,
+	description: "Like Thaumcraft's diamonds in iron form",
+	text: [
+		"Thaumium and Alchemical Brass are important materials in making all sorts of things.",
+		"",
+		"Don't make too much, however."
+	],
+	dependencies: [
+		"204856d1"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "a9be890c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "f7c2a618",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

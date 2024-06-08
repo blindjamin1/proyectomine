@@ -1,0 +1,71 @@
+{
+	title: "Its My Money and I Need It Now ",
+	x: -6.0d,
+	y: 3.0d,
+	description: "This thing could be better than any Backpack ever wants to be.",
+	text: [
+		"If you make some big brain moves, these remotes can be used to set up infinite inventory space.",
+		"",
+		"Each remote should read its own description."
+	],
+	dependencies: [
+		"a156f4df"
+	],
+	tasks: [{
+		uid: "556e5adf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagenetwork:remote"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63e3da9d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagenetwork:remote",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1d5d5428",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagenetwork:remote",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "87c1c50e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "storagenetwork:remote",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4cb1f2d8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "d2a1fefd",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

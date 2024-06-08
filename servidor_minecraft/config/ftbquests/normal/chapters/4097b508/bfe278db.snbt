@@ -1,0 +1,129 @@
+{
+	title: "Cross",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 1.5d,
+	y: -1.0d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Straight Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 34x34x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A straight cross stone wall.",
+		"---",
+		"Title: Stone Wall Straight Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 34x34x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed straight cross stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Straight Cross",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 33x33x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable cross of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "20a8af8e",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "8f470505",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 35,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_straight_cross",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Full Stone Wall Straight Cross",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "b6710f0c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 35,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_straight_cross",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Straight Cross",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "70e430c4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 33,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthru_straight_x",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Walkthru Straight X",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

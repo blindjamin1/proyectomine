@@ -1,0 +1,53 @@
+{
+	title: "Fountain",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 9.5d,
+	y: 2.0d,
+	shape: "square",
+	text: [
+		"Title: Fountain",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 33x33x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village fountain. Note: The ice will melt and remove the torches; no water is required after pasting."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "7077f577",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "e252f128",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 33,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/fountain",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Fountain",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

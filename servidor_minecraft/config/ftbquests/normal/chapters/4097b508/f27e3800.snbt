@@ -1,0 +1,53 @@
+{
+	title: "Clock Tower",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 6.607142857142854d,
+	y: 0.5178571428571459d,
+	shape: "square",
+	text: [
+		"Title: Clock Tower",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 20x20x52",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village clock tower showing 10:20. Enterable with two rooms."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "b78d0dc7",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "e4995f9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 53,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/clock_tower",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Clock Tower",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

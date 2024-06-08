@@ -1,0 +1,91 @@
+{
+	title: "Spectral Dust Table",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:spectral_dust",
+		Damage: 2s
+	},
+	loot_size: 3,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 1s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 2s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 3s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 4s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 5s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 6s
+		},
+		random_bonus: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:spectral_dust",
+			Damage: 7s
+		},
+		random_bonus: 3
+	}],
+	loot_crate: {
+		string_id: "spectral_dust_loot_box",
+		item_name: "Crate of Random Spectral Dust",
+		color: 3123617,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

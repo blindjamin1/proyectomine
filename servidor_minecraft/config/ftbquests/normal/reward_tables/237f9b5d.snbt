@@ -1,0 +1,192 @@
+{
+	title: "Jousting Gear",
+	loot_size: 50,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:lead",
+			tag: {
+				"Quark:ItemNameDye": 12,
+				display: {
+					Lore: [
+						"Fences not included!"
+					],
+					Name: "Horse Puller"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:golden_horse_armor",
+			tag: {
+				"Quark:ItemNameDye": 14,
+				display: {
+					Lore: [
+						"If you get armour so does the horse."
+					]
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:horse"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:sugar",
+			tag: {
+				display: {
+					Lore: [
+						"Good for making your horse feel better"
+					],
+					Name: "Horse Happy Powder"
+				}
+			}
+		},
+		count: 32,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:bread"
+		},
+		count: 24,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:name_tag",
+			tag: {
+				"Quark:ItemNameDye": 13,
+				display: {
+					Lore: [
+						"Wonder if it likes pizza or mozzerella"
+					],
+					Name: "Valkyrie"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "spartanweaponry:lance_bronze",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Lore: [
+						"Legends say this lance is able to pierce through any shield"
+					],
+					Name: "Lance of Longinus"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_boots",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Boots"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_leggings",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Leggings"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_chestplate",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Chestplate"
+				}
+			}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:iron_helmet",
+			tag: {
+				"Quark:ItemNameDye": 1,
+				Quality: {},
+				display: {
+					Name: "Jockey Helmet"
+				}
+			}
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "jockey",
+		item_name: "Crate Of Jousting Gear",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

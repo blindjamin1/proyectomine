@@ -1,0 +1,34 @@
+{
+	title: "Little Splash of Sinister",
+	x: -5.5d,
+	y: -12.0d,
+	description: "Just what the growing ground needs!",
+	text: [
+		"Wow... corruption spreads really fast...",
+		"",
+		"Spawns TONS of mobs when in darkness... Right-Click on Dirt to use this item.",
+		"",
+		"It really is overwhelming, and may lag lower end PCs."
+	],
+	tasks: [{
+		uid: "22351ec2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 10s
+		}]
+	}],
+	rewards: [{
+		uid: "aacadef8",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "d7a3c3ae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

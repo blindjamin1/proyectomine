@@ -1,0 +1,43 @@
+{
+	title: "Beach Vacation",
+	x: -3.0d,
+	y: -10.0d,
+	description: "If you like Pinacolada!",
+	text: [
+		"Visit the Tropicraft dimension.",
+		"",
+		"Warning: Drinking a Pinacolada to get back home instead of taking the portal will GENERATE A NEW PORTAL.",
+		"",
+		"This will interfere with anything in the way."
+	],
+	dependencies: [
+		"fd29d952"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d04d6768",
+		type: "dimension",
+		dim: -127
+	}],
+	rewards: [{
+		uid: "e667a1ce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 6s
+		}
+	},
+	{
+		uid: "956d176a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7c14d358",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

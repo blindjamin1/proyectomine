@@ -1,0 +1,47 @@
+{
+	title: "Boots of the Traveler",
+	x: 8.5d,
+	y: 1.0d,
+	description: "Why do these need to be charged?",
+	text: [
+		"You'll move better and faster as long as these boots are charged."
+	],
+	dependencies: [
+		"d61d7f87"
+	],
+	tasks: [{
+		uid: "cedebccd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:traveller_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54b5bcd4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "37b79762",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "67f81949",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

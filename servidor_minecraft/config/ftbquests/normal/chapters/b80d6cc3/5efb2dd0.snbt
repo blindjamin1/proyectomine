@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 2.0d,
+	tasks: [{
+		uid: "b2f253f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:ingot_nickel"
+		}]
+	}]
+}

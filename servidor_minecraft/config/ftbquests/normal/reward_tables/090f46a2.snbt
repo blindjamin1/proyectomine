@@ -1,0 +1,84 @@
+{
+	title: "Crate of Lesser Disciplines",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "wizardryfates:lesser_scroll_earth",
+		Count: 1b
+	},
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:lesser_scroll_earth",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:lesser_scroll_necromancy",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:lesser_scroll_healing",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:lesser_scroll_lightning",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:lesser_scroll_ice",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:lesser_scroll_fire",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:lesser_scroll_sorcery",
+			Count: 1b
+		}
+	}],
+	loot_crate: {
+		string_id: "crate_of_lesser_disciplines",
+		item_name: "Crate of Lesser Discipline Scrolls",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

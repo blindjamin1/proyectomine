@@ -1,0 +1,46 @@
+{
+	title: "We Need More Aura",
+	x: -5.5d,
+	y: -4.75d,
+	description: "Got a solution?",
+	text: [
+		"Yes, we do.",
+		"A Workbench Charger amplifies the local aura on the workbench you're using.",
+		"",
+		"It allows crafting of items that uses a large amount of aura.",
+		"",
+		"Obtain a Workbench Charger."
+	],
+	dependencies: [
+		"bee95934"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "9bf83daf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "0c76b162",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d768182d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

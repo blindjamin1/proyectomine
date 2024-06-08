@@ -1,0 +1,43 @@
+{
+	title: "Nice and Crunchy!",
+	x: 2.0d,
+	y: -5.5d,
+	description: "Great source of protein!",
+	text: [
+		"Obtain some Exoskeleton."
+	],
+	dependencies: [
+		"d01b8d01"
+	],
+	tasks: [{
+		uid: "24abba66",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "df2e43d7",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "1adafe99",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "cc800d34",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 5s
+		}
+	}]
+}

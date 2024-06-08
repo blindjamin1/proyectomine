@@ -1,0 +1,61 @@
+{
+	title: "&4Acacia Wizard Tower",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:duplication_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -10.883333333333312d,
+	y: 0.43333333333333d,
+	shape: "square",
+	text: [
+		"Title: Acacia Wizard Tower",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 37x19x62",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: Acacia and stone brick wizard towers joined with a bridge. Nine rooms inside."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "08de054a",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "bce78d2b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 10886144,
+				size: 63,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/acacia_wizard_tower",
+				author: "Samara__",
+				display: {
+					color: 10886144
+				},
+				label: "Acacia Wizard Tower",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

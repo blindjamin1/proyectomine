@@ -1,0 +1,32 @@
+{
+	title: "You Thought You Couldn’t See Then?",
+	x: 28.5d,
+	y: 8.5d,
+	description: "Try using one that isn't brand new!",
+	text: [
+		"Good luck looking when all you see is soot!"
+	],
+	dependencies: [
+		"bfa2a309"
+	],
+	tasks: [{
+		uid: "8c3e5731",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:anti_tinker_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "d42cc761",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "847c8a35",
+		type: "xp_levels",
+		xp_levels: 10
+	}]
+}

@@ -1,0 +1,82 @@
+{
+	title: "Erebus Modbox",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "erebus:portal_activator"
+	},
+	loot_size: 30,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:stonebrick"
+		},
+		count: 12,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:leaves"
+		},
+		count: 12,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:spray_can"
+		},
+		count: 9,
+		random_bonus: 9,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:materials",
+			Damage: 38s
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:erebus_food",
+			Damage: 1s
+		},
+		count: 12,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:gaean_keystone"
+		},
+		count: 2,
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "erebus_modbox",
+		item_name: "Crate of Bug-Out Equipment",
+		color: 29952,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

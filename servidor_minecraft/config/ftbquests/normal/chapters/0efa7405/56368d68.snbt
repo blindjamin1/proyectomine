@@ -1,0 +1,43 @@
+{
+	title: "Portable Battery?",
+	x: -8.0d,
+	y: -4.75d,
+	description: "No shock hazard guaranteed!",
+	text: [
+		"Obtain a Amulet of Vis."
+	],
+	dependencies: [
+		"8e7bca3c"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "68726c98",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:amulet_vis",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a0584e9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "08cbf719",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

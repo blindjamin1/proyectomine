@@ -1,0 +1,49 @@
+{
+	title: "Two Thaumometers",
+	x: 3.0d,
+	y: 5.0d,
+	description: "Strapped to your face",
+	text: [
+		"Its like a Thaumometer, but its equipable in your baubles.",
+		"Requires no effort on your part."
+	],
+	dependencies: [
+		"1af03bae"
+	],
+	size: 3.0d,
+	tasks: [{
+		uid: "9d91a6cc",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e4a8ecd0",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "thaumcraft_modbox"
+			}
+		}
+	},
+	{
+		uid: "1d073fed",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "0be08a1d",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

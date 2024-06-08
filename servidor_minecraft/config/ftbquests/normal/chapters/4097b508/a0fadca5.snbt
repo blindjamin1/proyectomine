@@ -1,0 +1,61 @@
+{
+	title: "Thaumic Observer Tower",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 12.71190476190477d,
+	y: 5.285714285714256d,
+	shape: "square",
+	text: [
+		"Title: Thaumic Observer Tower",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 7x7x21",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A tower for Celestial Observation in Thaumic purple. NOTE: A Celestial Observer is needed where the Cyan Wool is, and two Chests where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "809ecab3",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "c7b74d5d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 4013373,
+				size: 21,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_observer_tower",
+				author: "Samara__",
+				display: {
+					color: 4013373
+				},
+				label: "Thaumic Observer Tower",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

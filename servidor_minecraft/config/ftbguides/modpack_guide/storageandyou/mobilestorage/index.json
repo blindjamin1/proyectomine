@@ -1,0 +1,12 @@
+[
+ {
+  "id": "backpacks",
+  "title": "Backpack",
+  "icon": "item:improvedbackpacks:backpack"
+ },
+ {
+  "id": "dankstorage",
+  "title": "Dank Nulls",
+  "icon": "item:danknull:dank_null_6"
+ }
+]

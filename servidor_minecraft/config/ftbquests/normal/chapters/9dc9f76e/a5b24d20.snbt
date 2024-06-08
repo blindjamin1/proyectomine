@@ -1,0 +1,273 @@
+{
+	title: "Colossal Chests!",
+	x: -4.0d,
+	y: 0.0d,
+	description: "For when you need MORE",
+	text: [
+		"These Colossal Chests will aid you in storing the massive amounts of materials and items you're going to collect on your adventures.",
+		"",
+		"The Interface can be connected to pipes to enable simple or advanced sorting systems.",
+		"",
+		"You are only required to build the pieces for one type of Colossal Chest to complete this quest.",
+		"",
+		"&c&lIt is highly recommended to build the Colossial Chest with all parts in the same chunk."
+	],
+	dependencies: [
+		"5e5e8910"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "e93014d1",
+		type: "item",
+		title: "Wooden Colossal Chest",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall"
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:colossal_chest"
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:interface"
+		}],
+		consume_items: false
+	},
+	{
+		uid: "d0f56067",
+		type: "item",
+		title: "Copper Colossal Chest",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 1s
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:colossal_chest",
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:interface",
+			Damage: 1s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "7549b3b7",
+		type: "item",
+		title: "Iron Colossal Chest",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 2s
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:colossal_chest",
+			Damage: 2s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:interface",
+			Damage: 2s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "8577c590",
+		type: "item",
+		title: "Silver Colossal Chest",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 3s
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:colossal_chest",
+			Damage: 3s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:interface",
+			Damage: 3s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "7d38aa80",
+		type: "item",
+		title: "Golden Colossal Chest",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 4s
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:colossal_chest",
+			Damage: 4s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:interface",
+			Damage: 4s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "ddb31046",
+		type: "item",
+		title: "Diamond Colossal Chest",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 5s
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:colossal_chest",
+			Damage: 5s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:interface",
+			Damage: 5s
+		}],
+		consume_items: false
+	},
+	{
+		uid: "4d9d069b",
+		type: "item",
+		title: "Obsidian Colossal Chest",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 6s
+		},
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:chest_wall",
+			Damage: 6s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:colossal_chest",
+			Damage: 6s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "colossalchests:interface",
+			Damage: 6s
+		}],
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "f9d43192",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "9654d018",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "47391868",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald"
+		}
+	}]
+}

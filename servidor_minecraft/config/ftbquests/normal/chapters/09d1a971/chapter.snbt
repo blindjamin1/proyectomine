@@ -1,0 +1,12 @@
+{
+	title: "High Flyin'",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vc:item_airship_ignition"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,45 @@
+{
+	title: "Portal, but with Items",
+	x: -3.5d,
+	y: -9.5d,
+	description: "GLADOS hates you now",
+	text: [
+		"Well, she already did, but she DEFINTELY does now.",
+		"",
+		"*Cough* Automated Crucible *Cough*"
+	],
+	dependencies: [
+		"80f9d45b"
+	],
+	tasks: [{
+		uid: "ff381206",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:interactionproxy"
+		}]
+	}],
+	rewards: [{
+		uid: "8f104c4a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 5s
+		}
+	},
+	{
+		uid: "576da47f",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "5f8f6dc3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

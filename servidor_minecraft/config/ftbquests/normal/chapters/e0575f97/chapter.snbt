@@ -1,0 +1,12 @@
+{
+	title: "Touching Grass",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "roots:roots_guide"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

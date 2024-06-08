@@ -1,0 +1,44 @@
+{
+	title: "I'm The Map",
+	x: -8.0d,
+	y: -3.0d,
+	description: "A real pioneer",
+	text: [
+		"You may have noticed that there's not a minimap mod installed.",
+		"",
+		"This is to help with modpack performance.",
+		"",
+		"In it's place antique atlas is used.",
+		"",
+		"These act like a minimap but stored as a book.",
+		"",
+		"As you explore with it in your inventory it will store a basic visual of the surronding land.",
+		"",
+		"It has features to place markers in it so you can mark points of interest.",
+		"",
+		"Crafting an empty one with an activated one will copy the content inside to the empty atlas."
+	],
+	dependencies: [
+		"35def456"
+	],
+	tasks: [{
+		uid: "ce35aa7a",
+		type: "checkmark",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:filled_map"
+		}
+	}],
+	rewards: [{
+		uid: "2f099997",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "antiqueatlas:empty_antique_atlas"
+		}
+	}]
+}

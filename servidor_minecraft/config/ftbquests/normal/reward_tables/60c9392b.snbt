@@ -1,0 +1,80 @@
+{
+	title: "Garden Tables (Pam's HarvestCraft)",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "harvestcraft:frostgarden"
+	},
+	loot_size: 2,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:aridgarden"
+		},
+		count: 3,
+		random_bonus: 7
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:frostgarden"
+		},
+		count: 3,
+		random_bonus: 7
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:shadedgarden"
+		},
+		count: 3,
+		random_bonus: 7
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:soggygarden"
+		},
+		count: 3,
+		random_bonus: 7
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:tropicalgarden"
+		},
+		count: 3,
+		random_bonus: 7
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "harvestcraft:windygarden"
+		},
+		count: 3,
+		random_bonus: 7
+	}],
+	loot_crate: {
+		string_id: "garden_tables_pam_s_harvestcraft_",
+		item_name: "Box of Gardens",
+		color: 32768,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

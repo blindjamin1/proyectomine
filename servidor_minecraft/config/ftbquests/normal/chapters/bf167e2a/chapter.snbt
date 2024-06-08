@@ -1,0 +1,12 @@
+{
+	title: "Up in the Clouds",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "rustic:cloudsbluff"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,33 @@
+{
+	x: -4.5d,
+	y: -4.5d,
+	description: "Did I say no other?",
+	text: [
+		"Obtain a Prudentium Watering Can."
+	],
+	dependencies: [
+		"aaa2120a"
+	],
+	tasks: [{
+		uid: "392a8732",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:watering_can",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "243d9861",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "5439de32",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

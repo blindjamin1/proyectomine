@@ -1,0 +1,49 @@
+{
+	title: "Slowness Bomb",
+	x: -4.0d,
+	y: 0.0d,
+	description: "You're not going anywhere with this",
+	text: [
+		"This bomb gives an effect similar to slowness.",
+		"",
+		"Obtain a Dewshroom Spore Bomb."
+	],
+	dependencies: [
+		"500c1c45"
+	],
+	tasks: [{
+		uid: "e3d54552",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:spore_bomb",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "451fe788",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "66687f9e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "ed267f5a",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

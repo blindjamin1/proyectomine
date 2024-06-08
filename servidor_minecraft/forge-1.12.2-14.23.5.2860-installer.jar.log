@@ -1,0 +1,38 @@
+JVM info: Private Build - 1.8.0_412 - 25.412-b08
+java.net.preferIPv4Stack=true
+Current Time: 08/06/2024 19:59:04
+Host: files.minecraftforge.net [104.21.58.163, 172.67.161.211]
+Host: maven.minecraftforge.net [104.21.58.163, 172.67.161.211]
+Host: libraries.minecraft.net [13.107.246.41]
+Host: launchermeta.mojang.com [13.107.246.41]
+Host: piston-meta.mojang.com [13.107.246.41]
+Host: sessionserver.mojang.com [13.107.246.41]
+Host: authserver.mojang.com [Unknown]
+java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+	at java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:204)
+	at java.awt.Window.init(Window.java:484)
+	at java.awt.Window.<init>(Window.java:436)
+	at java.awt.Window.<init>(Window.java:591)
+	at java.awt.Dialog.<init>(Dialog.java:665)
+	at java.awt.Dialog.<init>(Dialog.java:510)
+	at javax.swing.JDialog.<init>(JDialog.java:422)
+	at javax.swing.JOptionPane.createDialog(JOptionPane.java:945)
+	at net.minecraftforge.installer.InstallerPanel.run(InstallerPanel.java:279)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:182)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:154)
+Exception in thread "main" 
+java.awt.HeadlessException: 
+No X11 DISPLAY variable was set, but this program performed an operation which requires it.
+	at java.awt.GraphicsEnvironment.checkHeadless(GraphicsEnvironment.java:204)
+	at java.awt.Window.<init>(Window.java:536)
+	at java.awt.Frame.<init>(Frame.java:420)
+	at java.awt.Frame.<init>(Frame.java:385)
+	at javax.swing.SwingUtilities$SharedOwnerFrame.<init>(SwingUtilities.java:1763)
+	at javax.swing.SwingUtilities.getSharedOwnerFrame(SwingUtilities.java:1838)
+	at javax.swing.JOptionPane.getRootFrame(JOptionPane.java:1696)
+	at javax.swing.JOptionPane.showOptionDialog(JOptionPane.java:863)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:666)
+	at javax.swing.JOptionPane.showMessageDialog(JOptionPane.java:637)
+	at net.minecraftforge.installer.SimpleInstaller.launchGui(SimpleInstaller.java:185)
+	at net.minecraftforge.installer.SimpleInstaller.main(SimpleInstaller.java:154)

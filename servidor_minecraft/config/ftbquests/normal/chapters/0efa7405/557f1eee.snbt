@@ -1,0 +1,43 @@
+{
+	title: "Arcane Levitator",
+	x: 6.5d,
+	y: 3.0d,
+	description: "Slow elevator",
+	text: [
+		"It levitates you up in the air."
+	],
+	dependencies: [
+		"087a1f58"
+	],
+	tasks: [{
+		uid: "63cc07d4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:levitator"
+		}]
+	}],
+	rewards: [{
+		uid: "4559b868",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "28a401a9",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "de5d88b5",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 5s
+		}
+	}]
+}

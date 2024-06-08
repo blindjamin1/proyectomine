@@ -1,0 +1,26 @@
+{
+	title: "The Shoot Chute",
+	x: -16.5d,
+	y: 11.5d,
+	description: "Straight down!",
+	text: [
+		"The Chute can have items pumped into it via Hopper, pipes, however have you, and it will drop them straight below in the center.",
+		"",
+		"Someone said Chute automated Crucible? Sounds dangerous."
+	],
+	tasks: [{
+		uid: "468720f7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "quark:chute"
+		}]
+	}],
+	rewards: [{
+		uid: "70171ef0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

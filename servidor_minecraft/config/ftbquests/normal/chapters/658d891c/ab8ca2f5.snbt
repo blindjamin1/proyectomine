@@ -1,0 +1,69 @@
+{
+	title: "Super Shiner",
+	x: 12.0d,
+	y: 0.0d,
+	description: "Your dragon is pretty clean",
+	text: [
+		"Dragons that wear this own Richard Milles"
+	],
+	dependencies: [
+		"768743f4"
+	],
+	tasks: [{
+		uid: "93119beb",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonarmor_dragonsteel_ice"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8fdc9476",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonarmor_dragonsteel_ice",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0902769f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonarmor_dragonsteel_ice",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9adc956f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:dragonarmor_dragonsteel_ice",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54856ec7",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "892f239e",
+		type: "xp_levels",
+		xp_levels: 30
+	}]
+}

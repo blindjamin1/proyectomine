@@ -1,0 +1,53 @@
+{
+	title: "Smeltery",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 9.5d,
+	y: 0.5d,
+	shape: "square",
+	text: [
+		"Title: Smeltery",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 21x21x14",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village smeltery open to air."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "c1d29408",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "1255eb92",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 21,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/smeltery",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Smeltery",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

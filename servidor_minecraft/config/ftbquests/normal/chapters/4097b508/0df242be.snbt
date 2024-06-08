@@ -1,0 +1,53 @@
+{
+	title: "&6Birch Wizard Tower",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:empty_theory_scroll"
+	},
+	x: -6.549999999999969d,
+	y: 0.43333333333333d,
+	shape: "square",
+	text: [
+		"Title: Birch Wizard Tower",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 29x19x62",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A birch and stone brick wizard tower with a secondary tower extention. Five large rooms and two small rooms inside."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "9a10959c",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "3a3d349f",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 16777215,
+				size: 63,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/birch_wizard_tower",
+				author: "Samara__",
+				display: {
+					color: 16777215
+				},
+				label: "Birch Wizard Tower",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

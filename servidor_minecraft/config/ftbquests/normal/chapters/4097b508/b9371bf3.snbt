@@ -1,0 +1,53 @@
+{
+	title: "Spruce Library",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: -9.419047619047618d,
+	y: 1.9809523809523597d,
+	shape: "square",
+	text: [
+		"Title: Spruce Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x7",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spruce library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Spruce Bookshelf is needed where the Cyan Wool is and one Spruce Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6f9f8dea",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "d2726ebf",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 48368,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/spruce_library",
+				author: "Samara__",
+				display: {
+					color: 48368
+				},
+				label: "Spruce Library",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,55 @@
+{
+	title: "Damn Mosquitos",
+	x: 0.5d,
+	y: -5.5d,
+	description: "I counted 42 welts... how bout you, John?",
+	text: [
+		"Reduces the aggro range of most hostile bugs by a large amount."
+	],
+	dependencies: [
+		"d01b8d01"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "4954d078",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:materials",
+			Damage: 28s
+		}]
+	},
+	{
+		uid: "7b312549",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:spray_can"
+		}]
+	}],
+	rewards: [{
+		uid: "70e2ec0a",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "d7070a79",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "037b4f5e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 5s
+		}
+	}]
+}

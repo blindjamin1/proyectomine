@@ -1,0 +1,61 @@
+{
+	title: "&3Stone Wizard Tower",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:transmutation_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -5.073809523809501d,
+	y: 0.43333333333333d,
+	shape: "square",
+	text: [
+		"Title: Stone Wizard Tower",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 39x21x52",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A diorite and stone brick wizard tower with four small rooms and one large room inside."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "220500c6",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "87299e8d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 143546,
+				size: 53,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wizard_tower",
+				author: "Samara__",
+				display: {
+					color: 143546
+				},
+				label: "Stone Wizard Tower",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

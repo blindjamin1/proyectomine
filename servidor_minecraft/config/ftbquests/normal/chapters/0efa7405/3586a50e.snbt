@@ -1,0 +1,42 @@
+{
+	title: "I'm Not Crazy",
+	x: 10.0d,
+	y: -7.5d,
+	description: "You are",
+	text: [
+		"Might want to keep tabs on your sanity and how much warp you've accumulated."
+	],
+	dependencies: [
+		"204856d1"
+	],
+	tasks: [{
+		uid: "422f394a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:sanity_checker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2dc125b8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	},
+	{
+		uid: "be11af56",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

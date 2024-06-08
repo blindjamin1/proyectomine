@@ -1,0 +1,82 @@
+{
+	title: "Vampiric Drip",
+	x: -6.0d,
+	y: -2.5d,
+	description: "Let me brood in peace",
+	text: [
+		"The final part of becoming a real vampire is having a cloak so you can always look mysterious."
+	],
+	dependencies: [
+		"90a84a0f"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "d147a232",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_cloak"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "983d871f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_cloak",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "90aad3b7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_cloak",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6087a752",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_cloak",
+			Damage: 3s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "18fe9a07",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_cloak",
+			Damage: 4s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9dc14631",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "aca1bcf9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

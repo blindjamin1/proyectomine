@@ -1,0 +1,35 @@
+{
+	title: "Starting Gear Selection!",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "apprentice_spellbooks"
+		}
+	},
+	x: -7.0d,
+	y: -3.0d,
+	description: "Start your adventure TODAY!",
+	text: [
+		"Don't want to waste time mining just to get some basic gear click the checkmark to complete this quest.",
+		"",
+		"Collect your reward by selecting a crate of starting gear which contain armour, weapon(s) and food.",
+		"",
+		"You can select from a variety of gears."
+	],
+	dependencies: [
+		"35def456"
+	],
+	tasks: [{
+		uid: "0616f076",
+		type: "checkmark",
+		title: "Ready to roll!"
+	}],
+	rewards: [{
+		uid: "ea40f0d8",
+		type: "choice",
+		table: 45
+	}]
+}

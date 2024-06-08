@@ -1,0 +1,62 @@
+{
+	title: "&aJungle Wizard Tower",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "tfspellpack:twilight_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		},
+		Damage: 207s
+	},
+	x: -3.645238095238085d,
+	y: 0.43333333333333d,
+	shape: "square",
+	text: [
+		"Title: Jungle Wizard Tower",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 23x41x44",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A jungle and stone brick wizard tower accompanied with an L shaped building. Two huge rooms and two small rooms inside."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "6a1be277",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "a09929ba",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 2225418,
+				size: 51,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/jungle_wizard_tower",
+				author: "Samara__",
+				display: {
+					color: 2225418
+				},
+				label: "Jungle Wizard Tower",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,61 @@
+{
+	title: "Thaumic Altar",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 9.616666666666681d,
+	y: 5.285714285714256d,
+	shape: "square",
+	text: [
+		"Title: Thaumic Altar",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x9",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An infusion altar in Thaumic purple. NOTE: Six Arcane Pedestals are needed where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "2561594b",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "f9f8a42e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 2293908,
+				size: 21,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_altar",
+				author: "Samara__",
+				display: {
+					color: 4013373
+				},
+				label: "Thaumic Altar",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

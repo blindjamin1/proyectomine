@@ -1,0 +1,67 @@
+{
+	title: "Focus!",
+	x: -3.0d,
+	y: -5.0d,
+	description: "I get distracted so easily...",
+	text: [
+		"Obtain a Focus Pouch, a Blank Advanced Focus, and a Blank Greater Focus."
+	],
+	dependencies: [
+		"dc3395c7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "2b8603aa",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:focus_pouch"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0aeb2f41",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:focus_2"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4e1bd942",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:focus_3"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6b93583",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e23935c4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "primary_vis_crystals"
+			}
+		}
+	}]
+}

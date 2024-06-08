@@ -1,0 +1,53 @@
+{
+	title: "House 3",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 9.5d,
+	y: -1.0d,
+	shape: "square",
+	text: [
+		"Title: Overhaning House",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 21x24x25",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An overhanging two story village house."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "bf2bf56c",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "80ef313b",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 25,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/house_3",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "House 3",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

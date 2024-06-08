@@ -1,0 +1,193 @@
+{
+	title: "John, Did You Fart?",
+	x: -9.25d,
+	y: -3.75d,
+	description: "No, I didn't",
+	text: [
+		"Just because it was silent doesn't mean I can't smell it, John.",
+		"",
+		"This Elevator block is the exact same as the other one, exact the player will be facing whichever way the arrow is pointing when being transported."
+	],
+	size: 1.5d,
+	or_tasks: true,
+	tasks: [{
+		uid: "65a2a806",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating"
+		}]
+	},
+	{
+		uid: "82db59bd",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 1s
+		}]
+	},
+	{
+		uid: "18d0a01b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 2s
+		}]
+	},
+	{
+		uid: "15727c00",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 3s
+		}]
+	},
+	{
+		uid: "7957995e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 4s
+		}]
+	},
+	{
+		uid: "23548702",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 5s
+		}]
+	},
+	{
+		uid: "5d7c40ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 6s
+		}]
+	},
+	{
+		uid: "11da5a99",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 7s
+		}]
+	},
+	{
+		uid: "c1257924",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 8s
+		}]
+	},
+	{
+		uid: "253911a7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 9s
+		}]
+	},
+	{
+		uid: "91bdf740",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 10s
+		}]
+	},
+	{
+		uid: "52d9e24d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 11s
+		}]
+	},
+	{
+		uid: "fef2019e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 12s
+		}]
+	},
+	{
+		uid: "c7dd56ff",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 13s
+		}]
+	},
+	{
+		uid: "9a6c0ee8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 14s
+		}]
+	},
+	{
+		uid: "13b37444",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:elevator_rotating",
+			Damage: 15s
+		}]
+	}],
+	rewards: [{
+		uid: "20a1e279",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

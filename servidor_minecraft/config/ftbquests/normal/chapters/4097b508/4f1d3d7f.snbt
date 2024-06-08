@@ -1,0 +1,129 @@
+{
+	title: "Straight to Diagonal",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 4.401360544217681d,
+	y: 0.5102040816326507d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Obtuse Straight Diagonal Connector",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 57x29x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A diagonal to straight piece of stone wall.",
+		"---",
+		"Title: Stone Wall Obtuse Straight Diagonal Connector",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 57x29x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed diagonal to straight piece of stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Obtuse Straight Diagonal Connector",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 60x34x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable diagonal to straight piece of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "31db0f8d",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "4b4ef397",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 57,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_obtuse_angle",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Full Stone Wall Obtuse Angle",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "96621832",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 57,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_obtuse_angle",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Obtuse Angle",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "e42701fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 61,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthru_obtuse_angle",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Walkthru Obtuse Angle",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

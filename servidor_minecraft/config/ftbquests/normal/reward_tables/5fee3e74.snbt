@@ -1,0 +1,353 @@
+{
+	title: "Uncommon Tier Rewards",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "uncommon_tier_rewards"
+		}
+	},
+	loot_size: 5,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:astral_diamond_shard"
+		},
+		random_bonus: 3,
+		weight: 9
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:crimson_middle_gem"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:aqua_middle_gem"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:green_middle_gem"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:life_crystal"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:manuscript"
+		},
+		count: 3,
+		random_bonus: 9,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "randomloot:golden_case"
+		},
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "megaloot:weaponcase_rare"
+		},
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:bartering_scroll"
+		},
+		random_bonus: 1,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:twilight_sapling",
+			Damage: 5s
+		},
+		random_bonus: 1,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:twilight_sapling",
+			Damage: 6s
+		},
+		random_bonus: 1,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:twilight_sapling",
+			Damage: 7s
+		},
+		random_bonus: 1,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:twilight_sapling",
+			Damage: 8s
+		},
+		random_bonus: 1,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:vishroom"
+		},
+		count: 4,
+		random_bonus: 4,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:fire_lily"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:frost_lily"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:cockatrice_eye"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:deathworm_tounge"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:stone_tablet"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tombstone:tablet_of_cupidity",
+			tag: {
+				ancient: 1b
+			}
+		},
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:phylactery"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "quark_runes_table"
+			}
+		},
+		weight: 9
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "spectral_dust_loot_box"
+			}
+		},
+		weight: 9
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "elemental_crystal_loot_table_wizardry_"
+			}
+		},
+		weight: 9
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tombstone:crafting_ingredient",
+			Damage: 4s
+		},
+		random_bonus: 5,
+		weight: 11
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:chunk",
+			Damage: 1s
+		},
+		count: 4,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 18s
+		},
+		count: 4,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:chunk",
+			Damage: 2s
+		},
+		count: 4,
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 19s
+		},
+		count: 4,
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dungeontactics_charms"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "wand_upgrades"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:sapling_silverwood"
+		},
+		weight: 10
+	}],
+	loot_crate: {
+		string_id: "uncommon_tier_rewards",
+		item_name: "Crate of Uncommon Rewards",
+		color: 5208386,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

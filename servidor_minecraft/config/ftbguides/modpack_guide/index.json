@@ -1,0 +1,32 @@
+[
+ {
+  "id": "gettingstarted",
+  "title": "Getting Started!",
+  "icon": "item:minecraft:grass"
+ },
+ {
+  "id": "foodandhealth",
+  "title": "All You Can Eat",
+  "icon": "item:harvestcraft:southernstylebreakfastitem"
+ },
+ {
+  "id": "storageandyou",
+  "title": "Storage & You",
+  "icon": "item:minecraft:chest"
+ },
+ {
+  "id": "tipsandtricks",
+  "title": "Modpack Tips & Tricks",
+  "icon": "item:minecraft:redstone_torch"
+ },
+  {
+  "id": "bringoutyourdead",
+  "title": "Bring Out Your Dead",
+  "icon": "item:tombstone:ankh_of_pray"
+ },
+ {
+  "id": "notesandcredits",
+  "title": "Notes & Credits",
+  "icon": "item:scalinghealth:heartcontainer"
+ }
+]

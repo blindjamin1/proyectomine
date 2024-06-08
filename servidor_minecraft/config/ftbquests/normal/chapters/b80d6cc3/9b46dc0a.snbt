@@ -1,0 +1,45 @@
+{
+	title: "Electric Ingot?",
+	x: 23.5d,
+	y: -2.5d,
+	description: "No, doofus",
+	text: [
+		"Will it shock me?",
+		"",
+		"No, doofus."
+	],
+	dependencies: [
+		"bcb31588"
+	],
+	tasks: [{
+		uid: "2300e595",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:ingot_electrum"
+		}]
+	}],
+	rewards: [{
+		uid: "0cf2f9fd",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1374de60",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "f9ac6d9a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 6s
+		}
+	}]
+}

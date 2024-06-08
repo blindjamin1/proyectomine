@@ -1,0 +1,12 @@
+{
+	title: "The Good and the Damned",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "tombstone:decorative_tombstone"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

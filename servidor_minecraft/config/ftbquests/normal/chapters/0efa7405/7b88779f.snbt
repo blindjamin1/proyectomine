@@ -1,0 +1,37 @@
+{
+	title: "Smelt Faster!",
+	x: 13.5d,
+	y: -10.5d,
+	description: "Speed is key, right?",
+	text: [
+		"The Arcane Bellows helps smelt the items within the Smeltery faster."
+	],
+	dependencies: [
+		"f8a63da8"
+	],
+	tasks: [{
+		uid: "2e4c90d3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:bellows"
+		}]
+	}],
+	rewards: [{
+		uid: "7f8abcb3",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "51bef178",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:loot_bag"
+		}
+	}]
+}

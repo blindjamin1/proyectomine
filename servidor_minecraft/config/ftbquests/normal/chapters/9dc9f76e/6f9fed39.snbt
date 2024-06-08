@@ -1,0 +1,54 @@
+{
+	title: "So Much to Experience!",
+	x: -6.5d,
+	y: -7.0d,
+	description: "So many memories to make!",
+	text: [
+		"All those memories of you dying and forgetting to store your XP.",
+		"",
+		"This item will store 8670 experience. This is enough XP to take you from 0 to level 60.",
+		"",
+		"Shift-Right-Click to store the XP.",
+		"",
+		"Right-Click to release XP."
+	],
+	tasks: [{
+		uid: "6837a800",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "xpbook:xp_tome",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "20509c10",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9abea307",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:emerald"
+		}
+	},
+	{
+		uid: "64201c09",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:bag_magic"
+		},
+		count: 5
+	}]
+}

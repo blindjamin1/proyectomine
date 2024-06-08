@@ -1,0 +1,32 @@
+{
+	title: "Splash Potionator",
+	x: 9.0d,
+	y: -12.0d,
+	description: "Things just got more complicated",
+	text: [
+		"Provide it with essentia and it will be good for 8 sprays."
+	],
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "ef3ffcd8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:potion_sprayer"
+		}]
+	}],
+	rewards: [{
+		uid: "222ba8ad",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "230f32ce",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

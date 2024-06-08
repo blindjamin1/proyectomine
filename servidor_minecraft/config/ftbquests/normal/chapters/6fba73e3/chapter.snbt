@@ -1,0 +1,12 @@
+{
+	title: "Reliquary (of Ancient Artifacts!)",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "xreliquary:mercy_cross"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

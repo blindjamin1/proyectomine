@@ -1,0 +1,12 @@
+{
+	title: "Extra Utilities",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "extrautils2:angelblock"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,131 @@
+{
+	title: "Runic Plates",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:runic_plate",
+		Damage: 410s
+	},
+	loot_size: 1,
+	rewards: [{
+		title: "Runic Plate - Blast",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 405s
+		}
+	},
+	{
+		title: "Runic Plate - Supress",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 410s
+		}
+	},
+	{
+		title: "Runic Plate - Briar",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 400s
+		}
+	},
+	{
+		title: "Runic Plate - Shatter",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 404s
+		}
+	},
+	{
+		title: "Runic Plate - Reach",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 407s
+		}
+	},
+	{
+		title: "Runic Plate - Push",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 408s
+		}
+	},
+	{
+		title: "Runic Plate - Endure",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 402s
+		}
+	},
+	{
+		title: "Runic Plate - Sol",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 403s
+		}
+	},
+	{
+		title: "Runic Plate - Pull",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 406s
+		}
+	},
+	{
+		title: "Runic Plate - Displace",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 401s
+		}
+	},
+	{
+		title: "Runic Plate - Fury",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:runic_plate",
+			Damage: 409s
+		}
+	}],
+	loot_crate: {
+		string_id: "runic_plates",
+		item_name: "Crate of Runic Plates",
+		color: 9598865,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

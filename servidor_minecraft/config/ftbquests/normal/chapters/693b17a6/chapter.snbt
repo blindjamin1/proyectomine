@@ -1,0 +1,12 @@
+{
+	title: "Feats of Strength",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "atum:scroll"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

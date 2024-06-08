@@ -1,0 +1,33 @@
+{
+	x: -1.0d,
+	y: -4.5d,
+	description: "So that last one was still worse, huh?",
+	text: [
+		"Obtain an Intermedium Watering Can."
+	],
+	dependencies: [
+		"52393883"
+	],
+	tasks: [{
+		uid: "73ccb45f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:watering_can",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7ff4441",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "aef3d0bb",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

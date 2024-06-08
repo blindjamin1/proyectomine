@@ -1,0 +1,43 @@
+{
+	title: "Hunter's Gift",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:soul_orb_vampire"
+		},
+		count: 12
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:item_alchemical_fire"
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:holy_water_splash_bottle",
+			tag: {
+				tier: "NORMAL"
+			}
+		},
+		count: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:vampire_blood_bottle"
+		},
+		count: 8
+	}]
+}

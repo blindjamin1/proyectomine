@@ -1,0 +1,45 @@
+{
+	title: "No Spectre Coils?",
+	x: 7.5d,
+	y: 5.5d,
+	description: "Well, here's your alternative",
+	text: [
+		"A Vis Generator uses the local aura to produce energy."
+	],
+	dependencies: [
+		"9e146a1f"
+	],
+	tasks: [{
+		uid: "c51d8cee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:vis_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "ee2374be",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "1e8d4da5",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "28aec25d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	}]
+}

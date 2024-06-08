@@ -1,0 +1,54 @@
+{
+	title: "Can You Swing Your Sword?",
+	x: -8.0d,
+	y: 3.0d,
+	description: "Return to 1.8",
+	text: [
+		"Who needs bows when you can swing your sword faster than any arrow flies!"
+	],
+	tasks: [{
+		uid: "d4444daf",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "uniquecrops:emblem.melee",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -1111271812189633007L,
+						UUIDLeast: -4683608016462058430L,
+						Amount: 0.05000000074505806d,
+						AttributeName: "generic.movementSpeed",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.speedy.name"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d43e08fa",
+		type: "ftbmoney:money",
+		ftb_money: 125L
+	},
+	{
+		uid: "ae63bc32",
+		type: "xp_levels",
+		xp_levels: 30
+	},
+	{
+		uid: "4aec7022",
+		type: "random",
+		table: 19
+	}]
+}

@@ -1,0 +1,93 @@
+{
+	title: "Crate of Main Disciplines",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "wizardryfates:scroll_earth",
+		Count: 1b
+	},
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_earth",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_necromancy",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_healing",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_lightning",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_ice",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_fire",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_sorcery",
+			Count: 1b
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardryfates:scroll_ancient",
+			Count: 1b
+		}
+	}],
+	loot_crate: {
+		string_id: "crate_of_main_disciplines",
+		item_name: "Crate of Main Discipline Scrolls",
+		color: 16777215,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

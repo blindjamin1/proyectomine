@@ -1,0 +1,49 @@
+{
+	title: "Poison Bomb",
+	x: -5.0d,
+	y: -1.0d,
+	description: "Don't inhale it",
+	text: [
+		"This bomb gives an effect similar to poison.",
+		"",
+		"Obtain a Viridshroom Spore Bomb."
+	],
+	dependencies: [
+		"500c1c45"
+	],
+	tasks: [{
+		uid: "7f3d4141",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:spore_bomb",
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "23e2a59e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "ccad7766",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "62040ebf",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

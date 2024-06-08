@@ -1,0 +1,51 @@
+{
+	title: "Vampire Villager",
+	x: -5.0d,
+	y: -2.5d,
+	description: "The butler did do it",
+	text: [
+		"In vampire controlled villages, you can come across vampire experts .",
+		"",
+		"They will trade human hearts for pure blood."
+	],
+	dependencies: [
+		"d53d6c2d"
+	],
+	tasks: [{
+		uid: "5db852fb",
+		type: "interaction",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:zombie_villager"
+			}
+		},
+		match_type: "entity_id",
+		match: "vampirism:villager_vampire_faction"
+	}],
+	rewards: [{
+		uid: "c5e29e7e",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "vampirism:blood_bottle",
+			Damage: 9s
+		},
+		count: 3
+	},
+	{
+		uid: "01024e40",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "b53443ca",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

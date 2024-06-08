@@ -1,0 +1,53 @@
+{
+	title: "Bakery",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: 12.392857142857139d,
+	y: 0.5178571428571388d,
+	shape: "square",
+	text: [
+		"Title: Bakery",
+		"",
+		"Theme: Village",
+		"",
+		"LxWxH: 22x21x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A village bakery with one wall open to serve bread."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "1832126a",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "97a3dd44",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 7566195,
+				size: 23,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/bakery",
+				author: "Samara__",
+				display: {
+					color: 12881152
+				},
+				label: "Bakery",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

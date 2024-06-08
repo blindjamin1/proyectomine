@@ -1,0 +1,148 @@
+{
+	title: "Jar Jar",
+	x: 18.0d,
+	y: -9.0d,
+	description: "Blinks",
+	text: [
+		"Does he have eyelids?",
+		"",
+		"Anyways, jars help sort and store essentia. Be sure to label them because there are many shades of red essentia that are hard to tell apart.",
+		"",
+		"Jars can also be hooked up to pipes."
+	],
+	dependencies: [
+		"f8a63da8"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a5b69980",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:jar_normal"
+		}]
+	},
+	{
+		uid: "543f160b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:jar_void"
+		}]
+	},
+	{
+		uid: "a2572d0c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:jar_brace"
+		}]
+	},
+	{
+		uid: "310a3d8e",
+		type: "item",
+		title: "Primary Essentia Marked Labels",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:label",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aer"
+				}]
+			},
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:label",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "terra"
+				}]
+			},
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:label",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ignis"
+				}]
+			},
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:label",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "aqua"
+				}]
+			},
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:label",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "ordo"
+				}]
+			},
+			Damage: 1s
+		},
+		{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:label",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "perditio"
+				}]
+			},
+			Damage: 1s
+		}]
+	}],
+	rewards: [{
+		uid: "18bcd055",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "f0dd9905",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

@@ -1,0 +1,1 @@
+<improvedbackpacks:backpack>.addTooltip(format.darkRed("Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"));

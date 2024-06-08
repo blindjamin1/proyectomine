@@ -1,0 +1,61 @@
+{
+	title: "Warped Altar",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:transmutation_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 4.140476190476193d,
+	y: 5.2761904761904646d,
+	shape: "square",
+	text: [
+		"Title: Warped Altar",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x9",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: An infusion altar in Warped black. NOTE: Six Eldritch Pedestals are needed where the Pink Wool is and 230 Starfield Glass (Rift) is needed where the Cyan Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "de6d8f1a",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "18e97453",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 4013373,
+				size: 21,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/warped_altar",
+				author: "Samara__",
+				display: {
+					color: 0
+				},
+				label: "Warped Altar",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

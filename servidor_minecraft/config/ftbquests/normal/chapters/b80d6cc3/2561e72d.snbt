@@ -1,0 +1,43 @@
+{
+	title: "The Rookies and the Pro",
+	x: 20.5d,
+	y: 9.0d,
+	description: "Just one pro, he don't need no one",
+	text: [
+		"The rookies keep taking turns looking up how to do things on the internet, as they're doing it."
+	],
+	dependencies: [
+		"091cf380"
+	],
+	tasks: [{
+		uid: "71ab0712",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "soot:alchemy_gauge"
+		}]
+	}],
+	rewards: [{
+		uid: "b872d01a",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "b891b73c",
+		type: "xp_levels",
+		xp_levels: 10
+	},
+	{
+		uid: "53c5f646",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "aquaculture:loot",
+			Damage: 6s
+		}
+	}]
+}

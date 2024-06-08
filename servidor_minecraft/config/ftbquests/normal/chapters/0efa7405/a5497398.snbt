@@ -1,0 +1,49 @@
+{
+	title: "Recycling",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "thaumcraft:tallow"
+	},
+	x: 7.5d,
+	y: -13.5d,
+	description: "Who needs 100 stacks of rotten flesh?",
+	text: [
+		"Who knew that Yankee Candle sold rotten flesh scent candles.",
+		"Mmm, smells nice."
+	],
+	dependencies: [
+		"7c204714"
+	],
+	tasks: [{
+		uid: "6ea2266b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:tallow"
+		}]
+	},
+	{
+		uid: "31cadc3f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:candle_white"
+		}]
+	}],
+	rewards: [{
+		uid: "9560ebe7",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "524001e9",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

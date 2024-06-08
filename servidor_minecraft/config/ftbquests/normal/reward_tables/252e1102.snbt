@@ -1,0 +1,105 @@
+{
+	title: "Embers Modbox",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "embers:ember_cluster"
+	},
+	loot_size: 30,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:tinker_hammer",
+			tag: {}
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:tinker_lens"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:ember_detector"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:ancient_motive_core"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:archaic_brick"
+		},
+		count: 12,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:brick_caminite"
+		},
+		count: 64,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:coal"
+		},
+		count: 64,
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:ember_bore"
+		},
+		only_one: true
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "embers:codex"
+		},
+		only_one: true
+	}],
+	loot_crate: {
+		string_id: "embers_modbox",
+		item_name: "Embers Engineering Supply Crate",
+		color: 13391104,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

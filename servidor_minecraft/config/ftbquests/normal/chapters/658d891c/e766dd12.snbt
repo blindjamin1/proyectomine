@@ -1,0 +1,33 @@
+{
+	title: "Bigger Death Worm Egg",
+	disable_toast: true,
+	x: 18.5d,
+	y: -1.5d,
+	description: "This thing is gonna grow up to be THE devil.",
+	text: [
+		"WARNING: May eat you"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a8119341",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:iceandfire.deathworm_egg",
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7a1110d8",
+		type: "ftbmoney:money",
+		ftb_money: 75L
+	},
+	{
+		uid: "a72812bc",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

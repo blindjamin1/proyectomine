@@ -1,0 +1,45 @@
+{
+	title: "Efficiency at Best",
+	x: 18.0d,
+	y: -7.0d,
+	description: "The safest bet",
+	text: [
+		"A Thaumium Essentia Smeltery is much like an Essentia Smelter, but has 10% more effieciency and 100% higher slurry process speed."
+	],
+	dependencies: [
+		"f8a63da8"
+	],
+	tasks: [{
+		uid: "a9906cb5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "0d23596d",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "bf17d7ee",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "507202cb",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

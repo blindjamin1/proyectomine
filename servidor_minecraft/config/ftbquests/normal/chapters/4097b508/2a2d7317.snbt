@@ -1,0 +1,62 @@
+{
+	title: "Thaumic House",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 13.283333333333346d,
+	y: 9.738095238095205d,
+	shape: "square",
+	text: [
+		"Title: Thaumic House",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 23x20x13",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A building to house common Thaumcraft blocks with storage in the attic. NOTE: Refer to the legend picture for block placement.",
+		"",
+		"&lLEGEND COMING SOON!!"
+	],
+	tasks: [{
+		uid: "ae9fc606",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "bf3c1828",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 4013373,
+				size: 23,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_house",
+				author: "Samara__",
+				display: {
+					color: 4013373
+				},
+				label: "Thaumic House",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

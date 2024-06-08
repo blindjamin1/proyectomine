@@ -1,0 +1,129 @@
+{
+	title: "Extender",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 4.404761904761926d,
+	y: -0.9880952380952372d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Extender",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 12x10x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A small section stone wall.",
+		"---",
+		"Title: Stone Wall Extender",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 12x10x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed and small section stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Extender",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 12x15x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A small walkable section stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "2036f7af",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "46f044e1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_extender",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Full Stone Wall Extender",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "781abb31",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_extender",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Extender",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "554c91f8",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthrough_extender",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Walkthrough Extender",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

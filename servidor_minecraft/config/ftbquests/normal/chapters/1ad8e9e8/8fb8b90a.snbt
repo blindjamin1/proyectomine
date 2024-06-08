@@ -1,0 +1,27 @@
+{
+	title: "Just a Fixer-Upper",
+	x: -3.0d,
+	y: -7.5d,
+	description: "Nothing to worry about *boom*",
+	text: [
+		"Prepare for your dangerous adventures by crafting some of these."
+	],
+	dependencies: [
+		"995ca541"
+	],
+	tasks: [{
+		uid: "943949e7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thebetweenlands:lurker_skin_patch"
+		}]
+	}],
+	rewards: [{
+		uid: "34c2152f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

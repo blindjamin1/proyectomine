@@ -1,0 +1,225 @@
+{
+	title: "Common Tier Rewards",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "common_tier_rewards"
+		}
+	},
+	loot_size: 5,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:identification_scroll"
+		},
+		random_bonus: 2,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:shimmerleaf"
+		},
+		count: 3,
+		random_bonus: 7,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:cinderpearl"
+		},
+		count: 3,
+		random_bonus: 7,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:stone_tablet_small"
+		},
+		random_bonus: 3,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "extrautils2:ingredients",
+			Damage: 10s
+		},
+		count: 3,
+		random_bonus: 7,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:magic_powder"
+		},
+		count: 16,
+		random_bonus: 48,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "garden_tables_pam_s_harvestcraft_"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:chunk"
+		},
+		count: 4,
+		random_bonus: 4,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:chunk",
+			Damage: 1s
+		},
+		count: 4,
+		random_bonus: 4,
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 17s
+		},
+		count: 4,
+		random_bonus: 4,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 18s
+		},
+		count: 4,
+		random_bonus: 4,
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:ducttape"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:bag_quiver"
+		},
+		count: 8,
+		random_bonus: 8,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:bag_potion"
+		},
+		count: 8,
+		random_bonus: 8,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:bag_tool"
+		},
+		count: 8,
+		random_bonus: 8,
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "saplings_loot_table"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "elemental_shards_table"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "farm_animals_table"
+			}
+		},
+		weight: 10
+	}],
+	loot_crate: {
+		string_id: "common_tier_rewards",
+		item_name: "Crate of Common Rewards",
+		color: 13878873,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

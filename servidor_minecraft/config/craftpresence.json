@@ -1,0 +1,312 @@
+{
+  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
+  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
+  "_schemaVersion": 6,
+  "_lastMCVersionId": 340,
+  "generalSettings": {
+    "detectATLauncherInstance": true,
+    "detectCurseManifest": true,
+    "detectMultiMCManifest": true,
+    "detectMCUpdaterInstance": true,
+    "detectTechnicPack": false,
+    "detectModrinthPack": true,
+    "detectBiomeData": false,
+    "detectDimensionData": true,
+    "detectWorldData": true,
+    "clientId": "925094308003069972",
+    "defaultIcon": "midnight",
+    "enableJoinRequests": true,
+    "partyPrivacyLevel": 0,
+    "preferredClientLevel": 3,
+    "resetTimeOnInit": false,
+    "autoRegister": false
+  },
+  "biomeSettings": {
+    "fallbackBiomeIcon": "unknown",
+    "biomeData": {
+      "default": {
+        "textOverride": "Playing in {biome.name}"
+      }
+    }
+  },
+  "dimensionSettings": {
+    "fallbackDimensionIcon": "default",
+    "dimensionData": {
+      "tent": {
+        "textOverride": "Exploring - Tent -",
+        "iconOverride": "tent"
+      },
+      "spectre": {
+        "textOverride": "Exploring - {dimension.name} - ",
+        "iconOverride": "spectre"
+      },
+      "loi": {
+        "textOverride": "Exploring - Lands of Icaria -",
+        "iconOverride": "loi"
+      },
+      "private_pockets": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "privatepocket"
+      },
+      "the_end": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "end"
+      },
+      "the_beneath": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "beneath"
+      },
+      "default": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "default"
+      },
+      "skyland": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "skyland"
+      },
+      "public_pockets": {
+        "textOverride": "Exploring - {dimension.name} -"
+      },
+      "emptiness": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "emptiness"
+      },
+      "caveland": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "caveland"
+      },
+      "dark_forest": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "darkforest"
+      },
+      "huge_cavern": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "hugecavern"
+      },
+      "wide_desert": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "widedesert"
+      },
+      "twilight_forest": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "twilightforest"
+      },
+      "midnight": {
+        "textOverride": "Exploring - {dimension.name} - ",
+        "iconOverride": "midnight"
+      },
+      "cavenia": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "cavenia"
+      },
+      "erebus": {
+        "textOverride": "Exploring - The Erebus -",
+        "iconOverride": "erebus"
+      },
+      "the_default": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "default"
+      },
+      "overworld": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "overworld"
+      },
+      "aetheri": {
+        "textOverride": "Exploring - The Aether -",
+        "iconOverride": "aether"
+      },
+      "crown_cliffs": {
+        "textOverride": "Exploring -{dimension.name}-",
+        "iconOverride": "crownclifs"
+      },
+      "mining_world": {
+        "textOverride": "Exploring - Mining Dimension -",
+        "iconOverride": "default"
+      },
+      "the_nether": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "nether"
+      },
+      "betweenlands": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "betweenlands"
+      },
+      "dungeon_pockets": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "dungeonpocket"
+      },
+      "cavern": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "smallcavern"
+      },
+      "aqua_cavern": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "aquacavern"
+      },
+      "tropics": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "tropics"
+      },
+      "frost_mountains": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "frostmountains"
+      },
+      "limbo": {
+        "textOverride": "Exploring - {dimension.name} -",
+        "iconOverride": "limbo3"
+      }
+    }
+  },
+  "serverSettings": {
+    "fallbackServerIcon": "default",
+    "fallbackServerName": "Minecraft Server",
+    "fallbackServerMotd": "A Minecraft Server",
+    "serverData": {
+      "default": {
+        "textOverride": "Playing: {server.motd.raw}"
+      }
+    }
+  },
+  "statusMessages": {
+    "mainMenuData": {
+      "textOverride": "In the Main Menu"
+    },
+    "loadingData": {
+      "textOverride": "Loading..."
+    },
+    "lanData": {
+      "textOverride": "Playing on a LAN Server"
+    },
+    "singleplayerData": {
+      "textOverride": "Playing Singleplayer"
+    }
+  },
+  "advancedSettings": {
+    "enablePerGui": false,
+    "enablePerItem": false,
+    "enablePerEntity": false,
+    "formatWords": true,
+    "debugMode": false,
+    "verboseMode": false,
+    "refreshRate": 2,
+    "allowPlaceholderPreviews": false,
+    "guiSettings": {
+      "fallbackGuiIcon": "unknown",
+      "guiData": {
+        "default": {
+          "textOverride": "In {screen.name}"
+        }
+      }
+    },
+    "itemMessages": {
+      "default": "Holding {item.message.holding}"
+    },
+    "entitySettings": {
+      "fallbackEntityIcon": "unknown",
+      "targetData": {
+        "default": {
+          "textOverride": "Targeting {entity.target.name}"
+        }
+      },
+      "ridingData": {
+        "default": {
+          "textOverride": "Riding {entity.riding.name}"
+        }
+      }
+    },
+    "allowEndpointIcons": true,
+    "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
+    "playerSkinEndpoint": "https://crafatar.com/avatars/%1$s",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10
+  },
+  "accessibilitySettings": {
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 40,
+        "green": 0,
+        "blue": 127,
+        "alpha": 80
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "worldGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
+    "languageId": "en_us",
+    "stripTranslationColors": false,
+    "stripExtraGuiElements": false,
+    "renderTooltips": true,
+    "configKeyCode": 72
+  },
+  "displaySettings": {
+    "presenceData": {
+      "enabled": true,
+      "useAsMain": false,
+      "details": "{menu.message}{dimension.message}",
+      "gameState": "{server.message}",
+      "largeImageKey": "{menu.icon}{dimension.icon}",
+      "largeImageText": "{menu.message}{dimension.message}",
+      "smallImageKey": "{server.icon}{pack.icon}",
+      "smallImageText": "{server.message} {custom.pack}",
+      "startTimestamp": "{data.general.time}",
+      "endTimestamp": "",
+      "buttons": {
+        "default": {
+          "label": "Example Text",
+          "url": "https://google.com"
+        }
+      }
+    },
+    "dynamicIcons": {
+      "Doctor_Mage": "https://crafatar.com/avatars/f08977f4a17b46ae8b34b729c86dcfb2",
+      "default": "https://via.placeholder.com/256.png",
+      "dreamsx": "https://crafatar.com/avatars/c800e50f27274da49a89ccd18f6a0700"
+    },
+    "dynamicVariables": {
+      "default": "Example Text",
+      "mods": "{general.mods} Mod(s)",
+      "player_info_coordinate": "At {player.position.x}, {player.position.z}",
+      "players": "{server.players.current} / {server.players.max} Players",
+      "player_info_in": "({custom.player_info_health})",
+      "player_info_items": "Items: {item.main_hand.message}",
+      "player_info_out": "As {player.name}",
+      "player_info_health": "Health: {player.health.current}/{player.health.max}",
+      "world_info": "{world.name}",
+      "pack": "{pack.name}"
+    }
+  }
+}

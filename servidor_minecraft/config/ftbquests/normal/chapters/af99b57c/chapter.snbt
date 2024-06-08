@@ -1,0 +1,12 @@
+{
+	title: "Vampire Diaries",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "vampirism:soul_orb_vampire"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,28 @@
+{
+	title: "Back to the... Present?",
+	x: -34.71428571428572d,
+	y: 3.0892857142857224d,
+	description: "We didn't go anywhere?",
+	text: [
+		"In time, no. In space, yes.",
+		"",
+		"This item can be bound to a location by Right-Clicking. When it is Right-Clicked again, it will be used, and teleport you to the bound location."
+	],
+	tasks: [{
+		uid: "eeb31e3e",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "charm:totem_of_returning"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e736ee17",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

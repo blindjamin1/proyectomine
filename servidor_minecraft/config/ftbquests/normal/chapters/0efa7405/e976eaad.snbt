@@ -1,0 +1,33 @@
+{
+	title: "Lamp That Places More Lamps?",
+	x: 0.5d,
+	y: 3.25d,
+	description: "Theres more light for some reason",
+	text: [
+		"An Arcane Lamp places more light sources within 16 blocks away if its dark enough to spawn monsters."
+	],
+	dependencies: [
+		"187ba0b2"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "bf51312c",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:lamp_arcane"
+		}]
+	}],
+	rewards: [{
+		uid: "2b9306d7",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "a9e62e1c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

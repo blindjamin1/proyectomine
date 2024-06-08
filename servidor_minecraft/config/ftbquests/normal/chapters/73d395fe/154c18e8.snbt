@@ -1,0 +1,47 @@
+{
+	title: "Nagrilite Ingot",
+	x: 0.5d,
+	y: -2.5d,
+	description: "I want to make a grill out of this",
+	text: [
+		"Cook up some blue steak as well.",
+		"",
+		"Obtain a Nagrilite Ingot."
+	],
+	dependencies: [
+		"03bff484"
+	],
+	tasks: [{
+		uid: "81c9fdf3",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "midnight:nagrilite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "972379a1",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "common_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "151563d8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1ae369ab",
+		type: "xp_levels",
+		xp_levels: 15
+	}]
+}

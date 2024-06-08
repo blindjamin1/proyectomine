@@ -1,0 +1,33 @@
+{
+	title: "Back to Vanilla",
+	x: 6.0d,
+	y: 5.0d,
+	description: "Nah, it's still Thaumcraft",
+	text: [
+		""
+	],
+	dependencies: [
+		"187ba0b2"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "903000ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "thaumcraft:redstone_relay"
+		}]
+	}],
+	rewards: [{
+		uid: "c17721bb",
+		type: "xp_levels",
+		xp_levels: 5
+	},
+	{
+		uid: "8837f888",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

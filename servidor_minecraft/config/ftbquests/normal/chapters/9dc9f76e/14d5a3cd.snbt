@@ -1,0 +1,45 @@
+{
+	title: "EUREKA!",
+	x: 15.5d,
+	y: -3.0d,
+	description: "Now you need more",
+	text: [
+		"You'll always... need more...",
+		""
+	],
+	dependencies: [
+		"52178774"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "6291bee9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "98338d4d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "db19f622",
+		type: "xp_levels",
+		xp_levels: 15
+	},
+	{
+		uid: "8df75ae4",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "dungeontactics:bag_book"
+		},
+		count: 8
+	}]
+}

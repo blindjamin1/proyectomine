@@ -1,0 +1,89 @@
+{
+	title: "Epic Tier Rewards",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ftbquests:lootcrate",
+		tag: {
+			type: "epic_tier_rewards"
+		}
+	},
+	loot_size: 5,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:fire_dragon_blood"
+		},
+		count: 3,
+		random_bonus: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "iceandfire:ice_dragon_blood"
+		},
+		count: 3,
+		random_bonus: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "megaloot:weaponcase_epic"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "randomloot:titan_case"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:stone_tablet_grand"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "sea_serpent_scales"
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "dragon_scales_loot_table"
+			}
+		}
+	}],
+	loot_crate: {
+		string_id: "epic_tier_rewards",
+		item_name: "Crate of Epic Rewards",
+		color: 10494192,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

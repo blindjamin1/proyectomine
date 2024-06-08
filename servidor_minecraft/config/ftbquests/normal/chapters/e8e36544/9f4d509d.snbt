@@ -1,0 +1,22 @@
+{
+	title: "Chapter Overview",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "harvestcraft:shippingbin"
+	},
+	x: -22.75d,
+	y: 5.25d,
+	description: "Yes, I know it's messy right now... It'll get better... maybe.",
+	text: [
+		"Just kidding! We have finally organized this chapter.",
+		"",
+		"The mods in this chapter are:",
+		"-Open Blocks",
+		"-Quark",
+		"-Charm",
+		"-Dank/Null"
+	],
+	size: 3.5d
+}

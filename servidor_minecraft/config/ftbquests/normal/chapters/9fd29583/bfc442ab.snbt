@@ -1,0 +1,53 @@
+{
+	title: "Basic Bamboo",
+	x: -1.5d,
+	y: -14.0d,
+	description: "It do what you need it to",
+	text: [
+		"Craft basic bamboo pipes."
+	],
+	dependencies: [
+		"d93ec9a8"
+	],
+	tasks: [{
+		uid: "0341a4f2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:materials",
+			Damage: 73s
+		}]
+	},
+	{
+		uid: "231b96f8",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:bamboo_pipe"
+		}]
+	},
+	{
+		uid: "44a34bf4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "erebus:bamboo_pipe_extract"
+		}]
+	}],
+	rewards: [{
+		uid: "b531029f",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "c0130bb7",
+		type: "xp_levels",
+		xp_levels: 5
+	}]
+}

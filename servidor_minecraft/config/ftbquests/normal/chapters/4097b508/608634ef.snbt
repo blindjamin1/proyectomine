@@ -1,0 +1,61 @@
+{
+	title: "Thaumic Farmland",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 9.616666666666681d,
+	y: 6.809523809523782d,
+	shape: "square",
+	text: [
+		"Title: Thaumic Farmland",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x8",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A plot of farmland in Thaumic purple. It has an area of 15x15 (total of 225 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "36845db1",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "9fdd884c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 2293908,
+				size: 21,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/thaumic_farmland",
+				author: "Samara__",
+				display: {
+					color: 4013373
+				},
+				label: "Thaumic Farmland",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,12 @@
+{
+	title: "Pam Says You're a Farmer Now",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "minecraft:apple"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "circle"
+}

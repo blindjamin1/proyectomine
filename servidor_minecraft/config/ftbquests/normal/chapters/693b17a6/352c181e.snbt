@@ -1,0 +1,37 @@
+{
+	title: "A Liking Towards Liches",
+	x: 8.5d,
+	y: 1.0d,
+	description: "I didn't wanna kill you Mr. Bones...",
+	text: [
+		"Slay 20 Twilight Liches."
+	],
+	tasks: [{
+		uid: "1ff39160",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "twilightforest:trophy",
+			Damage: 1s
+		},
+		entity: "twilightforest:lich",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "9d8f55d6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "292c241c",
+		type: "xp_levels",
+		xp_levels: 50
+	},
+	{
+		uid: "f3561db6",
+		type: "choice",
+		table: 57
+	}]
+}

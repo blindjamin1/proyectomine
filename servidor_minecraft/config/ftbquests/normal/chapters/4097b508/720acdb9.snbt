@@ -1,0 +1,62 @@
+{
+	title: "Jungle Library",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "tfspellpack:twilight_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		},
+		Damage: 207s
+	},
+	x: -3.657142857142844d,
+	y: 1.9809523809523597d,
+	shape: "square",
+	text: [
+		"Title: Jungle Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x7",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A jungle library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Jungle Bookshelf is needed where the Cyan Wool is and one Jungle Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "954b64d3",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "05ff8892",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 2225418,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/jungle_library",
+				author: "Samara__",
+				display: {
+					color: 2225418
+				},
+				label: "Jungle Library",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "I Don't Recognize You",
+	x: -11.0d,
+	y: 12.5d,
+	description: "Where you from?",
+	text: [
+		"This pressure plate will only activate when a Player steps on top of it. Mobs and other entities including items do not activate this pressure plate."
+	],
+	tasks: [{
+		uid: "b3c6a2ee",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "quark:obsidian_pressure_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "882db994",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

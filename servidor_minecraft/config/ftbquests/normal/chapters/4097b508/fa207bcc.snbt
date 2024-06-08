@@ -1,0 +1,61 @@
+{
+	title: "Warped Farmland + Greatwood",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:transmutation_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 7.2357142857142875d,
+	y: 6.799999999999983d,
+	shape: "square",
+	text: [
+		"Title: Warped Farmland with Greatwood",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 21x21x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A plot of farmland with tainted Greatwood trees in Warped black. It has an area of 15x15 (total of 222 blocks), thus compatible with Harvesters."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "5fdae32a",
+		type: "ftbmoney:money",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "296e678c",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 4013373,
+				size: 21,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/warped_farmland+greatwood",
+				author: "Samara__",
+				display: {
+					color: 0
+				},
+				label: "Warped Farmland+greatwood",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

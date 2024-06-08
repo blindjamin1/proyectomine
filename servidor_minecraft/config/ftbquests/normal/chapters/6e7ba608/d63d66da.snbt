@@ -1,0 +1,105 @@
+{
+	title: "Fruity Fellow",
+	x: -5.0d,
+	y: -12.5d,
+	description: "He likes the sweet ones",
+	text: [
+		"Collect all the fruits from Tropicraft."
+	],
+	dependencies: [
+		"f61dcb12"
+	],
+	tasks: [{
+		uid: "b73fe06d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:grapefruit"
+		}]
+	},
+	{
+		uid: "11ba4603",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:lemon"
+		}]
+	},
+	{
+		uid: "586404ae",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:lime"
+		}]
+	},
+	{
+		uid: "7f2f1b70",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:orange"
+		}]
+	},
+	{
+		uid: "3810a095",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:pineapple_cubes"
+		}]
+	},
+	{
+		uid: "a8d1547d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:coconut_chunk"
+		}]
+	},
+	{
+		uid: "f7df8da9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tropicraft:nori_toasted"
+		}]
+	}],
+	rewards: [{
+		uid: "42a5a0fb",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "uncommon_tier_rewards"
+			}
+		}
+	},
+	{
+		uid: "89eaf125",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9b5ddc8d",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

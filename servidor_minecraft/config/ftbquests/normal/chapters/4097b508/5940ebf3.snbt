@@ -1,0 +1,61 @@
+{
+	title: "Warped Spa",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:transmutation_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 5.664285714285718d,
+	y: 8.276190476190443d,
+	shape: "square",
+	text: [
+		"Title: Warped Spa",
+		"",
+		"Theme: Thaumcraft 6",
+		"",
+		"LxWxH: 13x13x4",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spa for relieving warp in Warped black. NOTE: An Arcane Spa is needed where the Pink Wool is, an Everful Urn where the Cyan Wool is, and 20 Starfield Glass (Rift) where the Yellow Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "ca80e36a",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "7f7cc669",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 4013373,
+				size: 13,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/warped_spa",
+				author: "Samara__",
+				display: {
+					color: 0
+				},
+				label: "Warped Spa",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

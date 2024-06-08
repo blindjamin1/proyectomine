@@ -1,0 +1,53 @@
+{
+	title: "&bSpruce Wizard Tower",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ebwizardry:blank_scroll"
+	},
+	x: -9.454761904761881d,
+	y: 0.43333333333333d,
+	shape: "square",
+	text: [
+		"Title: Spruce Wizard Tower",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 23x41x44",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A spruce and stone brick wizard tower with a tower extention. Two huge rooms inside."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "f5eea59a",
+		type: "ftbmoney:money",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "ff407531",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 48368,
+				size: 45,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/spruce_wizard_tower",
+				author: "Samara__",
+				display: {
+					color: 48368
+				},
+				label: "Spruce Wizard Tower",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,129 @@
+{
+	title: "Straight L",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:amnesia_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: 0.05102040816330344d,
+	y: -1.0102040816326507d,
+	shape: "square",
+	text: [
+		"Title: Full Stone Wall Straight L",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 22x22x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A straight L stone wall.",
+		"---",
+		"Title: Stone Wall Straight L",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 22x22x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A windowed straight L stone wall.",
+		"---",
+		"Title: Stone Wall Walkthrough Straight L",
+		"",
+		"Theme: Stone",
+		"",
+		"LxWxH: 24x24x15",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A walkable L of stone wall."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a5d3e198",
+		type: "ftbmoney:money",
+		value: 300L
+	}],
+	rewards: [{
+		uid: "b2f1ff42",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 23,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/full_stone_wall_straight_l",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Full Stone Wall Straight L",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "acdf05e9",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 23,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_straight_l",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Straight L",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	},
+	{
+		uid: "41c13fef",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 6052956,
+				size: 25,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_wall_walkthru_straight_l",
+				author: "Samara__",
+				display: {
+					color: 6052956
+				},
+				label: "Stone Wall Walkthru Straight L",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

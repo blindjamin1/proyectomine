@@ -1,0 +1,12 @@
+{
+	title: "Spartan Weapons Collection",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "spartanweaponry:battleaxe_steel"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

@@ -1,0 +1,53 @@
+{
+	title: "Birch Library",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:empty_theory_scroll"
+	},
+	x: -6.538095238095224d,
+	y: 1.974999999999973d,
+	shape: "square",
+	text: [
+		"Title: Birch Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x7",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A birch  library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Birch Bookshelf is needed where the Cyan Wool is and one Birch Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "682d2d91",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "b6a9d9ce",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 16777215,
+				size: 15,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/birch_library",
+				author: "Samara__",
+				display: {
+					color: 16777215
+				},
+				label: "Birch Library",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

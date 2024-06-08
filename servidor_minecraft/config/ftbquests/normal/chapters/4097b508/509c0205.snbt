@@ -1,0 +1,51 @@
+{
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:duplication_scroll",
+		tag: {
+			"Quark:RuneColor": 6,
+			ench: [{
+				lvl: 4s,
+				id: 81
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -3.4285714285714306d,
+	y: 5.25d,
+	shape: "square",
+	text: [
+		"By paying coins, you will receive a Capsule that already has a build loaded.",
+		"",
+		"It will not paste the build, unless you have linked your inventory or your storage to the blueprint. Keybinds are present on the Capsule.",
+		"",
+		"Things to Note:",
+		"",
+		"- Pasting will not occur when other blocks or entities are in the way",
+		"",
+		"- You can paste multiple times"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "fd11f50e",
+		type: "checkmark",
+		title: "How Builds Work"
+	},
+	{
+		uid: "b62ee903",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsulemarker"
+		}]
+	}],
+	rewards: [{
+		uid: "b45628d0",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	}]
+}

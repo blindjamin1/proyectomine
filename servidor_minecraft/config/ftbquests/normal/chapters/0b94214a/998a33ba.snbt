@@ -1,0 +1,35 @@
+{
+	title: "Basic",
+	x: -11.5d,
+	y: -4.5d,
+	description: "How basic? Very",
+	text: [
+		"Only used to create the Seed Reprocessor.",
+		"",
+		"Craft some Base Essence Ingots."
+	],
+	dependencies: [
+		"883b968f"
+	],
+	tasks: [{
+		uid: "cd0ea6de",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "mysticalagriculture:crafting",
+			Damage: 32s
+		}]
+	}],
+	rewards: [{
+		uid: "2ba16e79",
+		type: "ftbmoney:money",
+		ftb_money: 25L
+	},
+	{
+		uid: "a4d3e1b0",
+		type: "xp_levels",
+		xp_levels: 3
+	}]
+}

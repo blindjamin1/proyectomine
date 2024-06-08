@@ -1,0 +1,61 @@
+{
+	title: "Stone Library",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "ancientspellcraft:transmutation_scroll",
+		tag: {
+			"Quark:RuneColor": 15,
+			ench: [{
+				lvl: 1s,
+				id: 34
+			}],
+			"Quark:RuneAttached": 1b
+		}
+	},
+	x: -5.085714285714275d,
+	y: 1.9809523809523597d,
+	shape: "square",
+	text: [
+		"Title: Stone Library",
+		"",
+		"Theme: EBWizardry",
+		"",
+		"LxWxH: 15x15x24",
+		"",
+		"Paste Y Level: 0 (Ground level)",
+		"",
+		"Structure Description: A stone library with 32 shelves. There is enough room to house all the books in EBWizardy and Dan's Ancient Wizardry. Note: 32 Oak Bookshelf is needed where the Cyan Wool is and one Oak Lecturn is needed where the Pink Wool is."
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "d78f5afa",
+		type: "ftbmoney:money",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "c8d4d9de",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "capsule:capsule",
+			tag: {
+				color: 143546,
+				size: 25,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "config/capsule/rewards/stone_library",
+				author: "Samara__",
+				display: {
+					color: 143546
+				},
+				label: "Stone Library",
+				canRotate: 1b
+			},
+			Damage: 5s
+		}
+	}]
+}

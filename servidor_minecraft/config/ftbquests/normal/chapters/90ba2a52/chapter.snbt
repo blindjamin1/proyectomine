@@ -1,0 +1,13 @@
+{
+	title: "The Grind Don't Stop",
+	icon: {
+		ForgeCaps: {
+			"wizardryutils:summoneditemdata": {}
+		},
+		id: "xreliquary:mob_ingredient",
+		Damage: 10s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

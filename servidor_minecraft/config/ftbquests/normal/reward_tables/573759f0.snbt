@@ -1,0 +1,518 @@
+{
+	title: "Uncommon Wizard Artifacts",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardrygolems:ring_engraved_concrete",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardrygolems:ring_grass",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "wizardrygolems:ring_sandstone",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:ring_stealth_attack",
+			tag: {
+				Quality: {
+					Slots: [
+						"baubles_trinket",
+						"offhand"
+					],
+					Color: "blue",
+					AttributeModifiers: [{
+						UUIDMost: -7775577264779934950L,
+						UUIDLeast: -5848566128612995468L,
+						Amount: 0.029999999329447746d,
+						AttributeName: "potioncore.projectileDamage",
+						Operation: 2,
+						Name: "qualitytools"
+					}],
+					Name: "quality.aiming.name"
+				}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:ring_twilight",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ring_charge",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ring_lily_flower",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ring_protector",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ring_mana_lesser",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ring_power",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:ring_poison_arrow",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_paladin",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_evoker",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_extraction",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_earth_biome",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_earth_melee",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_necromancy_melee",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_lightning_melee",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_ice_biome",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_ice_melee",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_fire_biome",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_fire_melee",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_battlemage",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:ring_siphoning",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:amulet_warding",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:amulet_fire_protection",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:amulet_ice_protection",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:amulet_channeling",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:amulet_lich",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:amulet_banishing",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:amulet_recovery",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:amulet_mana",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:amulet_rabbit",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:charm_mana_flask"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:charm_feeding",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:charm_sixth_sense",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:charm_growth",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:charm_minion_variants",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:charm_minion_health",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ebwizardry:charm_spell_discovery",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "tfspellpack:amulet_steeleaf",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:amulet_poison_resistance",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:charm_ice_cream",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:charm_mana_orb",
+			tag: {
+				Quality: {}
+			}
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"wizardryutils:summoneditemdata": {}
+			},
+			id: "ancientspellcraft:belt_horse"
+		}
+	}],
+	loot_crate: {
+		string_id: "uncommon_wizard_artifact",
+		item_name: "Crate of Uncommon Artifacts",
+		color: 11907676,
+		drops: {
+			boss: 0,
+			passive: 0,
+			monster: 0
+		}
+	}
+}

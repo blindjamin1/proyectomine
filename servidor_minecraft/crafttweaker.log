@@ -1,0 +1,625 @@
+[PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+Jellycraft
+Spencer Gilbert
+NerdyWhiteGuy
+Ncc1702
+Quaternary
+Genryu
+embeddedt
+Belathus
+Hooley
+Jonathan McManus
+Lucas
+DreamThorn
+Peregrinus11
+Jordan Pineo
+Phillip Swearingain
+Jessie Sims
+Zuniroa
+NickT
+Pongo Sapiens
+Ivy_
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[15:crafttweaker]: recipes/removed-recipes/removed-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:contenttweaker]: bigstick.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: bigstickFunctions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:contenttweaker]: crystalFluid.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: customitems/crystalFluidProperties.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: customitems/recipe/customitemsrecipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: customitems/tooltips/customitemstooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: enchantDupeFix.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: lootTables/ifritsJudgmentLoot.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: oreAllFlowers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: oreDict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: overhauls/twilightforest.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: overhauls/vampirism.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/ancient-beast-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/bigger-crafting-table-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/ChanceCube.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/crystalFluidRecipies.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/custom-vanilla-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/dungeon-tactics-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/dungeonCutlass.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/fireWillRocket.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/inventory-pets-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/many-materials-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/mystical-world-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/nether-star-recipe.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/quark-runes-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/recipieDurabilityFix.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/reliquary-angelic-feather.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/roots-pyre-crafting-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/rootsFlowerRitual.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/scalinghealth-difficulty-hearts.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/spectral-dust-recipes/mortar-spectral-dust-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/tropicraft-changed-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/vampires-need-umbrellas-rods.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/remove-and-hide-from-jei/remove-and-hide-from-jei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:contenttweaker]: reforgecat.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/danknullstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/endereborntooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/extrautils2tooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/improvedbackpackstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/inventorypetstooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/lostaethertooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/rootstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/thaumicwonderstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 4ms
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [contenttweaker]
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[15:crafttweaker]: recipes/removed-recipes/removed-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Loading Script: {[0:contenttweaker]: bigstick.zs}
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: item.contenttweaker.bigstick.name to Big Stick
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: bigstickFunctions.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Loading Script: {[0:contenttweaker]: crystalFluid.zs}
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidMagicCrystal to Liquid Mana
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidFireCrystal to Liquid Fire
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidIceCrystal to Liquid Cold
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidStormCrystal to Liquid Lightning
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidNecroCrystal to Liquid Undeath
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidEarthCrystal to Liquid Nature
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidMystCrystal to Liquid Magic
+[PREINITIALIZATION][SERVER][INFO] Setting localization for the key: fluid.fluidHealCrystal to Liquid Healing
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: customitems/crystalFluidProperties.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: customitems/recipe/customitemsrecipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: customitems/tooltips/customitemstooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: enchantDupeFix.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: lootTables/ifritsJudgmentLoot.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: oreAllFlowers.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: oreDict.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: overhauls/twilightforest.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: overhauls/vampirism.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/ancient-beast-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/bigger-crafting-table-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/ChanceCube.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/crystalFluidRecipies.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/custom-vanilla-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/dungeon-tactics-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/dungeonCutlass.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/fireWillRocket.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/inventory-pets-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/many-materials-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/mystical-world-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/nether-star-recipe.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/quark-runes-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/recipieDurabilityFix.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/reliquary-angelic-feather.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/roots-pyre-crafting-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/rootsFlowerRitual.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/scalinghealth-difficulty-hearts.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/spectral-dust-recipes/mortar-spectral-dust-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/tropicraft-changed-recipes.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/custom-recipes/vampires-need-umbrellas-rods.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: recipes/remove-and-hide-from-jei/remove-and-hide-from-jei.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Loading Script: {[0:contenttweaker]: reforgecat.zs}
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/danknullstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/endereborntooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/extrautils2tooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/improvedbackpackstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/inventorypetstooltip.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/lostaethertooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/rootstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [contenttweaker | SIDE_SERVER]: Skipping file {[0:crafttweaker]: tooltips/thaumicwonderstooltips.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 1078ms
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [contenttweaker], [recipeevent | crafttweaker]]
+[INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[15:crafttweaker]: recipes/removed-recipes/removed-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Skipping file {[0:contenttweaker]: bigstick.zs} as we are currently loading with a different loader
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: bigstickFunctions.zs}
+[INITIALIZATION][SERVER][INFO] Adding GiantRecipe for Big Stick
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <contenttweaker:bigstick>: "Well, its a big stick!"
+[INITIALIZATION][SERVER][INFO] Setting fuel for <contenttweaker:bigstick>
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Skipping file {[0:contenttweaker]: crystalFluid.zs} as we are currently loading with a different loader
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: customitems/crystalFluidProperties.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: customitems/recipe/customitemsrecipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: customitems/tooltips/customitemstooltip.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <contenttweaker:reforge_cat>: "This token can be used to reforge any item with a trait"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: enchantDupeFix.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: lootTables/ifritsJudgmentLoot.zs}
+[INITIALIZATION][SERVER][INFO] Retrieved pool uniqueebattle:judge_loot from table uniqueebattle:judge_loot
+[INITIALIZATION][SERVER][INFO] Queuing all entries of pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot' for removal
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'uniqueebattle:judge_loot' of table 'uniqueebattle:judge_loot'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: oreAllFlowers.zs}
+[INITIALIZATION][SERVER][INFO] Adding Sanguine Rose to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Feather Blossom to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Fade Leaf to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Ailing Nettle to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Tangle Weed to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Cinder Bloom to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Bark Vine to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Bramble to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Elder Flower to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Wither Rose to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Cornflower to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Lily of the Valley to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Lily of the Valley to ore dictionary entry flowerLilyOfTheValley
+[INITIALIZATION][SERVER][INFO] Adding Frost Lily to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Fire Lily to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Blue Hydracinth to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Chameomile to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Purple Staghorn to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Lionfangs to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Purple Hydracinth to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Blindweed to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Speardrops to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Yellow Staghorn to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Clover to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Sunkettle to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Sunsponge to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Purple Stormcotton to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Pink Stormcotton to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Blue Stormcotton to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Charmonder to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Voidlily to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Firehilt to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Sundew to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Silverleaf to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Frost Lotus to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Crystal Flower to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Pathos to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Magic Mushroom to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Red Anthurium to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Orange Anthurium to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Anemone to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Canna to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Orchid to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Crocosmia to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Commelina Diffusa to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Bromeliad to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Foliage to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Fern to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Dracaena to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Croton to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] Adding Acai Vine to ore dictionary entry allFlowers
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: oreDict.zs}
+[INITIALIZATION][SERVER][INFO] Adding Fiery Crystal to ore dictionary entry crystalElemental
+[INITIALIZATION][SERVER][INFO] Adding Icy Crystal to ore dictionary entry crystalElemental
+[INITIALIZATION][SERVER][INFO] Adding Stormy Crystal to ore dictionary entry crystalElemental
+[INITIALIZATION][SERVER][INFO] Adding Verdant Crystal to ore dictionary entry crystalGreen
+[INITIALIZATION][SERVER][INFO] Adding Mystical Crystal to ore dictionary entry crystalGreen
+[INITIALIZATION][SERVER][INFO] Adding Stormy Crystal to ore dictionary entry crystalAcid
+[INITIALIZATION][SERVER][INFO] Adding Verdant Crystal to ore dictionary entry crystalAcid
+[INITIALIZATION][SERVER][INFO] Adding Copper Ingot to ore dictionary entry ingotCopper
+[INITIALIZATION][SERVER][INFO] Adding Copper Nugget to ore dictionary entry nuggetCopper
+[INITIALIZATION][SERVER][INFO] Adding Silver Ingot to ore dictionary entry ingotSilver
+[INITIALIZATION][SERVER][INFO] Adding Silver Nugget to ore dictionary entry nuggetSilver
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: overhauls/twilightforest.zs}
+[INITIALIZATION][SERVER][INFO] Setting localization for the key: block.twilightforest:uncrafting_table.name to Overly Fancy Crafting Table
+[INITIALIZATION][SERVER][INFO] Translating tile.twilightforest.UncraftingTable.name to Overly Fancy Crafting Table
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: overhauls/vampirism.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <vampirism:vampire_fang>: "To become a vampire you have to complete the required quest."
+[INITIALIZATION][SERVER][INFO] Setting localization for the key: text.vampirism.deactivated_by_serveradmin to To become a vampire you have to complete the required quest.
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/ancient-beast-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/bigger-crafting-table-recipes.zs}
+[INITIALIZATION][SERVER][INFO] Adding BigRecipe for item.manymaterials:orb_of_potential.name
+[INITIALIZATION][SERVER][INFO] Adding BigRecipe for Large Stone Tablet
+[INITIALIZATION][SERVER][INFO] Adding BigRecipe for Grand Stone Tablet
+[INITIALIZATION][SERVER][INFO] Adding BigRecipe for Grand Magic Crystal
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/ChanceCube.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/crystalFluidRecipies.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/custom-vanilla-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/dungeon-tactics-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/dungeonCutlass.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/fireWillRocket.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/inventory-pets-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/many-materials-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/mystical-world-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/nether-star-recipe.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/quark-runes-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/recipieDurabilityFix.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/reliquary-angelic-feather.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/roots-pyre-crafting-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/rootsFlowerRitual.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/scalinghealth-difficulty-hearts.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/spectral-dust-recipes/mortar-spectral-dust-recipes.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/tropicraft-changed-recipes.zs}
+[INITIALIZATION][SERVER][INFO] Translating tropicraft.drink.pina_colada.name to Pinacolada
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/custom-recipes/vampires-need-umbrellas-rods.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: recipes/remove-and-hide-from-jei/remove-and-hide-from-jei.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Skipping file {[0:contenttweaker]: reforgecat.zs} as we are currently loading with a different loader
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/danknullstooltips.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <danknull:dank_null_0>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <danknull:dank_null_1>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <danknull:dank_null_2>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <danknull:dank_null_3>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <danknull:dank_null_4>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <danknull:dank_null_5>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <danknull:dank_null_6>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/endereborntooltips.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <endreborn:armour_helmet_dragon>: "This item can cause a memory leak use with caution!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <endreborn:armour_helmet_helmet>: "This item can cause a memory leak use with caution!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/extrautils2tooltip.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <extrautils2:bagofholding>: "Disabled due to inventory wiping, disappearing, and other bugs. Re-enable at your own risk."
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/improvedbackpackstooltips.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <improvedbackpacks:backpack>: "Avoid storing this item in a colossal chest otherwise you can run into an overflow crash!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/inventorypetstooltip.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:loot_pet>: "This pet is disabled due to reducing amount of loot gained when used with looting no point in reenabling."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:double_chest_pet>: "This pet is disabled due being able to dupe as well as not wanting to eat its food meaning you can lose items stored don't re-enable."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:enchanting_table_pet>: "This pet is disabled due to not recognising and working with modded enchants no point in reenabling."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:chest_pet>: "This pet is disabled due being able to dupe as well as not wanting to eat its food meaning you can lose items stored don't re-enable."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:anvil_pet>: "This pet is disabled due to being buggy and not using durabillity correctly and not functioning no point in reenabling."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:grave_pet>: "This Pet is disabled due to voiding items upon death and prevent graves from appearing don't re-enable it!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:slime_pet>: "This pet is disabled due to allowing players to be immortal for a cheap cost."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:flying_saddle_pet>: "This Pet is disabled due to breaking mob ai don't re-enable."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:saddle_pet>: "This Pet is disabled due to breaking mob ai don't re-enable."
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <inventorypets:wither_pet>: "Be warned when using this pet with a weapon that has life steal enchantment you will receive damage in some instances. This can kill you!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/lostaethertooltips.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <lost_aether:agility_boots>: "This item can cause a memory leak use with caution!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/rootstooltips.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <roots:fire_starter>: "Using this will cause your game to crash. Instead use a flint and steel!"
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: tooltips/thaumicwonderstooltips.zs}
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thaumicwonders:void_fortress_helm>: "This item is disabled due to causing a memory leak while equipped DO NOT WEAR IT!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thaumicwonders:void_fortress_chest>: "This item is disabled due to causing a memory leak while equipped DO NOT WEAR IT!"
+[INITIALIZATION][SERVER][INFO] Adding tooltip for <thaumicwonders:void_fortress_legs>: "This item is disabled due to causing a memory leak while equipped DO NOT WEAR IT!"
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 492ms
+[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "mysticalagriculture:gemamber"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thaumcraft:amberblocktoamber"
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "thaumcraft:amberblocktobrick"
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:katana_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:greatsword_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:longsword_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:saber_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:rapier_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:dagger_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:spear_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:pike_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:lance_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:halberd_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:warhammer_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:hammer_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:throwing_axe_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:throwing_knife_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:longbow_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:crossbow_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:javelin_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:battleaxe_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:boomerang_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:mace_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:staff_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:glaive_fire_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:katana_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:greatsword_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:longsword_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:saber_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:rapier_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:dagger_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:spear_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:pike_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:lance_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:halberd_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:warhammer_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:hammer_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:throwing_axe_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:throwing_knife_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:longbow_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:crossbow_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:javelin_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:battleaxe_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:boomerang_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:mace_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:staff_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <spartanfire:glaive_ice_dragonbone>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <iceandfire:dragonbone_sword_fire>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Removing Shapeless recipes for <iceandfire:dragonbone_sword_ice>
+[POSTINITIALIZATION][SERVER][INFO] Removing 1 Shapeless recipes.
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.reforge_cat.name with name ct_shaped1143290607
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.contenttweaker.reforge_cat.name with name ct_shaped-574099089
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stick with name ct_shapeless-1151522807
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Big Crafting Table with name ct_shaped393733256
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Huge Crafting Table with name ct_shaped-202467664
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Giant Crafting Table with name ct_shaped1160511009
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chance Cube with name ct_shaped-1466786826
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Boots with name ct_shaped-1491959313
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Leggings with name ct_shaped-595363882
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Chestplate with name ct_shaped1662071015
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Helmet with name ct_shaped2043468165
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flint and Steel with name ct_shapeless117207445
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Flint and Steel with name ct_shaped-499068375
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wooden Cutlass with name ct_shaped-1320408617
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bone Cutlass with name ct_shaped1759523075
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Cutlass with name ct_shaped1869783326
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Cutlass with name ct_shaped608053513
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Silver Cutlass with name ct_shaped-159918738
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Golden Cutlass with name ct_shaped-2033944054
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Steel Cutlass with name ct_shaped-280176094
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Diamond Cutlass with name ct_shaped912717421
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Mithril Cutlass with name ct_shaped-93976560
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Firewill Rocket with name ct_shaped1114092960
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cloud Pet with name ct_shaped-716642551
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.manymaterials:corrupted_prism.name with name ct_shaped1560546614
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.manymaterials:arcane_amalgam.name with name ct_shaped-522795022
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.manymaterials:ancient_fragments.name with name ct_shapeless-1032894071
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.manymaterials:ancient_fragments.name with name ct_shapeless1987862340
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.manymaterials:ancient_fragments.name with name ct_shapeless-265960253
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for item.manymaterials:ancient_fragments.name with name ct_shapeless-1844936896
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Small Stone Tablet with name ct_shaped2145500339
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Tablet with name ct_shaped1784623787
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.manymaterials:spectral_mass.name with name ct_shaped-924294845
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.manymaterials:golden_circlet.name with name ct_shaped-1205912667
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Boots with name ct_shaped-358011274
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Leggings with name ct_shaped-1405167271
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Chestplate with name ct_shaped-825630535
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Helmet with name ct_shaped918850689
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Copper Knife with name ct_shaped597241555
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Silver Knife with name ct_shaped1846786631
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Nether Star Shard with name ct_shapeless1062340301
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nether Star with name ct_shaped1722856157
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for White Rune with name quark_rune_white
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Orange Rune with name ct_shapeless29298223
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Orange Rune with name ct_shapeless29298224
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Magenta Rune with name ct_shapeless-1790991767
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Light Blue Rune with name ct_shapeless-1698771473
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Yellow Rune with name ct_shapeless1537225720
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Lime Rune with name ct_shapeless2122782554
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pink Rune with name ct_shapeless-2031226820
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Gray Rune with name ct_shapeless227179114
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Light Gray Rune with name ct_shapeless1914220499
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Cyan Rune with name ct_shapeless-1385700692
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Purple Rune with name ct_shapeless-826018905
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Blue Rune with name ct_shapeless759544710
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Brown Rune with name ct_shapeless1122034795
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Green Rune with name ct_shapeless1824570391
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Red Rune with name ct_shapeless596666244
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Black Rune with name ct_shapeless695537617
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Katana with name fixed_durability_0
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Greatsword with name fixed_durability_1
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Longsword with name fixed_durability_2
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Saber with name fixed_durability_3
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Rapier with name fixed_durability_4
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Dagger with name fixed_durability_5
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Spear with name fixed_durability_6
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Pike with name fixed_durability_7
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Lance with name fixed_durability_8
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Halberd with name fixed_durability_9
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Warhammer with name fixed_durability_10
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Hammer with name fixed_durability_11
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Throwing Axe with name fixed_durability_12
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Throwing Knife with name fixed_durability_13
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone-Strengthened Longbow with name fixed_durability_14
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone-Strengthened Crossbow with name fixed_durability_15
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Javelin with name fixed_durability_16
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Battleaxe with name fixed_durability_17
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Boomerang with name fixed_durability_18
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Flanged Mace with name fixed_durability_19
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Quarterstaff with name fixed_durability_20
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragonbone Glaive with name fixed_durability_21
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Katana with name fixed_durability_22
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Greatsword with name fixed_durability_23
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Longsword with name fixed_durability_24
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Saber with name fixed_durability_25
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Rapier with name fixed_durability_26
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Dagger with name fixed_durability_27
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Spear with name fixed_durability_28
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Pike with name fixed_durability_29
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Lance with name fixed_durability_30
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Halberd with name fixed_durability_31
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Warhammer with name fixed_durability_32
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Hammer with name fixed_durability_33
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Throwing Axe with name fixed_durability_34
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Throwing Knife with name fixed_durability_35
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone-Strengthened Longbow with name fixed_durability_36
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone-Strengthened Crossbow with name fixed_durability_37
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Javelin with name fixed_durability_38
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Battleaxe with name fixed_durability_39
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Boomerang with name fixed_durability_40
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Flanged Mace with name fixed_durability_41
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Quarterstaff with name fixed_durability_42
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragonbone Glaive with name fixed_durability_43
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flamed Dragon Bone Sword with name fixed_durability_44
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iced Dragon Bone Sword with name fixed_durability_45
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for item.angelic_feather.name with name ct_shaped-1321687073
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Enchanted Heart with name ct_shaped-1562407295
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cursed Heart with name ct_shaped358561474
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless267348830
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless1122345438
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-1316619313
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless2012262928
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-1802620647
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-280792363
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-1609021911
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless261173172
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-843714424
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless1716903973
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-316504026
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-1046928125
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-2029991445
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Spectral Dust with name ct_shapeless-722347501
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pinacolada with name ct_shaped-464906335
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Iron Umbrella Rod with name ct_shaped1257609413
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Gold Umbrella Rod with name ct_shaped-258411371
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Diamond Umbrella Rod with name ct_shaped-64226763
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <dungeontactics:steel_dust>
+[POSTINITIALIZATION][SERVER][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@3c05ce7f
+[POSTINITIALIZATION][SERVER][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@37ac096b
+[POSTINITIALIZATION][SERVER][INFO] Adding Melter recipe: teamroots.embers.recipe.ItemMeltingRecipe@4cb7c490
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@53cbec7e
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@41afa64e
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@169f1841
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@64fedd46
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@685a65bb
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@54fb2328
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@3ac864e6
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@284e9a14
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@1382451b
+[POSTINITIALIZATION][SERVER][INFO] Adding Stamper recipe: teamroots.embers.recipe.ItemStampingRecipe@1eedc620
+[POSTINITIALIZATION][SERVER][INFO] Adding Still recipe: crafttweaker:fire
+[POSTINITIALIZATION][SERVER][INFO] Adding Still recipe: crafttweaker:ice
+[POSTINITIALIZATION][SERVER][INFO] Adding Still recipe: crafttweaker:storm
+[POSTINITIALIZATION][SERVER][INFO] Adding Still recipe: crafttweaker:necro
+[POSTINITIALIZATION][SERVER][INFO] Adding Still recipe: crafttweaker:earth
+[POSTINITIALIZATION][SERVER][INFO] Adding Still recipe: crafttweaker:myst
+[POSTINITIALIZATION][SERVER][INFO] Adding Still recipe: crafttweaker:heal
+[POSTINITIALIZATION][SERVER][INFO] Removing Pyre Altar Crafting recipe 1xitem.cloud_berry@0
+[POSTINITIALIZATION][SERVER][INFO] Adding Pyre Crafting Ritual for 3xitem.cloud_berry@0
+[POSTINITIALIZATION][SERVER][INFO] Removing Pyre Altar Crafting recipe 1xitem.dewgonia@0
+[POSTINITIALIZATION][SERVER][INFO] Adding Pyre Crafting Ritual for 3xitem.dewgonia@0
+[POSTINITIALIZATION][SERVER][INFO] Removing Pyre Altar Crafting recipe 1xitem.infernal_bulb@0
+[POSTINITIALIZATION][SERVER][INFO] Adding Pyre Crafting Ritual for 3xitem.infernal_bulb@0
+[POSTINITIALIZATION][SERVER][INFO] Removing Pyre Altar Crafting recipe 1xitem.stalicripe@0
+[POSTINITIALIZATION][SERVER][INFO] Adding Pyre Crafting Ritual for 3xitem.stalicripe@0
+[POSTINITIALIZATION][SERVER][INFO] Removing Pyre Altar Crafting recipe 1xitem.moonglow_leaf@0
+[POSTINITIALIZATION][SERVER][INFO] Adding Pyre Crafting Ritual for 3xitem.moonglow_leaf@0
+[POSTINITIALIZATION][SERVER][INFO] Removing Pyre Altar Crafting recipe 1xitem.pereskia@0
+[POSTINITIALIZATION][SERVER][INFO] Adding Pyre Crafting Ritual for 3xitem.pereskia@0
+[POSTINITIALIZATION][SERVER][INFO] Removing Pyre Altar Crafting recipe 1xtile.baffle_cap_mushroom@0
+[POSTINITIALIZATION][SERVER][INFO] Adding Pyre Crafting Ritual for 3xtile.baffle_cap_mushroom@0
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_sanguine}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_feather}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_fade}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_ailment}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_tangle}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_cinder}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_bark}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_bramble}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{dungeontactics:flower_xp}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{futuremc:wither_rose}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{futuremc:cornflower}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{futuremc:lily_of_the_valley}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:1 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:2 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:3 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:4 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:5 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:6 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:7 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:8 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:9 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:10 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:11 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:12 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:13 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:14 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower}:15 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{landsoficaria:flower_2}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{pvj:sundew}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{pvj:silverleaf}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{pvj:frost_lotus}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{ebwizardry:crystal_flower}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:1 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:2 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:3 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:4 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:5 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:6 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:7 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:8 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:9 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:10 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:11 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:12 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:13 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{tropicraft:flower}:14 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{thaumcraft:shimmerleaf}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{thaumcraft:vishroom}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{thaumcraft:cinderpearl}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{iceandfire:fire_lily}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Recipe to produce Block{iceandfire:frost_lily}:0 with FlowerGrowth
+[POSTINITIALIZATION][SERVER][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@1
+[POSTINITIALIZATION][SERVER][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@2
+[POSTINITIALIZATION][SERVER][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@3
+[POSTINITIALIZATION][SERVER][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@4
+[POSTINITIALIZATION][SERVER][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@5
+[POSTINITIALIZATION][SERVER][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@6
+[POSTINITIALIZATION][SERVER][INFO] Adding MortarRecipe to make 3xitem.ebwizardry:spectral_dust@7
