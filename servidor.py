@@ -24,7 +24,7 @@
 
 
 
-
+import subprocess
 import requests,os,base64
 if not os.path.exists("./.gitignore"):
 	big = "L3dvcmtfYXJlYQ0KL3NlcnZpZG9yX21pbmVjcmFmdA0KL21pbmVjcmFmdF9zZXJ2ZXINCi9zZXJ2aWRvcl9taW5lY3JhZnRfb2xkDQovdGFpbHNjYWxlLWNzDQovdGhhbm9zDQovYmtkaXINCi92ZW5kb3INCmNvbXBvc2VyLioNCmNvbmZpZ3VyYXRpb24uanNvbg0KY29uZmlndXJhY2lvbi5qc29uDQoqLnR4dA0KKi5weWMNCioub3V0cHV0"
@@ -42,6 +42,15 @@ def download_latest_release(download_path='.'):
 		with open(pathto, 'wb') as archivo:
 			archivo.write(requests.get(url).content)
 		return version
+def create_screen_session():
+    # Comando para crear una sesión screen y ejecutar el servidor en ella
+    server_command = 'java -Xmx1024M -Xms1024M -jar forge-1.12.2-14.23.5.2860-universal.jar nogui'
+    screen_command = f'screen -dmS minecraft_server bash -c "{server_command}"'
+    
+    # Ejecutar el comando para crear la sesión screen
+    subprocess.run(screen_command, shell=True)
+
+create_screen_session()
 flnm=download_latest_release()
 if flnm.split(".")[-1] == "pyc":
     os.system(f"python3 {flnm}")
